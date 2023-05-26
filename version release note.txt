@@ -1,0 +1,56 @@
+
+v0.1
+
+v0.2
+
+
+
+v0.3 (2022-09-15)
+divide the test fulction from 4 to 6 
+test_runs_1
+-maximum number of VLAN TEST -
+test_runs_2
+-maximum number of VTY Session TEST
+test_runs_3
+-maximum number of VTY Session configuration TEST 
+test_runs_4
+-maximum number of Services TEST 
+test_runs_5
+-Flexport Basic configuration Test
+test_runs_6
+-Flexport Example configuration Test
+
+v0.4 (2022-09-16)
+-> unittest_basic_v07.py
+divide test log for eath test as test name.
+
+v0.4 (2022-09-19)
+-> unittest_basic_v07a.py
+Change the location of the log file and replace the login() function
+v0.4 (2022-09-20)
+change host address from basic config to main script to config two dut. 
+v0.5 (2022-09-26)
+-> unittest_basic_v08.py
+add LACP/LAG test suit
+add try/except feature to excute remove action when assertEqual is failure.
+
+v0.6 (2022-09-29)
+-> unittest_basic_v09.py
+add LLDP test suit
+
+(2022-09-30)
+fixed the input values, ex) vlan ,vty, svc and uni.
+changes plog position 
+
+(2022-10-05)
+-> unittest_basic_v010.py
+add EOAM test suit
+
+(2023-01-04)
+-> unittest_basic_v011.py
+add Flexport_Breakout test suit
+
+
+(2023-04-04)
+-> unittest_basic_v012.py
+add __init__.py in each folder to make a packge

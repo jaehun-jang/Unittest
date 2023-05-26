@@ -1,0 +1,24 @@
+
+
+##### maximum number of VTY Session Configuration TEST    #####
+
+
+config terminal
+
+LAB1# 
+LAB1# ##### maximum number of VTY Session Configuration TEST    #####
+LAB1# 
+LAB1# 
+LAB1# 
+
+no line vty 8 39
+
+
+end
+config terminal
+
+
+line vty 1 39
+
+
+end

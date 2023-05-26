@@ -1,0 +1,5945 @@
+
+
+##### maximum number of of SVCs TEST    #####
+
+
+config terminal
+
+LAB1# 
+LAB1# ##### maximum number of of SVCs TEST    #####
+LAB1# 
+LAB1# 
+LAB1# 
+
+vlan 2-256
+
+
+end
+config terminal
+ethernet service add evc1
+svlan 1
+service type evpl
+ethernet service add evc2
+svlan 2
+service type evpl
+ethernet service add evc3
+svlan 3
+service type evpl
+ethernet service add evc4
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# 
+LAB1(config)# 
+LAB1(config)# vlan 2-256
+LAB1(config-vlan)# 
+LAB1(config-vlan)# 
+LAB1(config-vlan)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet service add evc1
+LAB1(config-svc)# svlan 1
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc2
+LAB1(config-svc)# svlan 2
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc3
+LAB1(config-svc)# svlan 3
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 4
+service type evpl
+ethernet service add evc5
+svlan 5
+service type evpl
+ethernet service add evc6
+svlan 6
+service type evpl
+ethernet service add evc7
+svlan 7
+service type evpl
+ethernet service add evc8
+svlan 8
+service type evpl
+ethernet service add evc9
+svlan 9
+service type evpl
+ethernet service add evc4
+LAB1(config-svc)# svlan 4
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc5
+LAB1(config-svc)# svlan 5
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc6
+LAB1(config-svc)# svlan 6
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc7
+LAB1(config-svc)# svlan 7
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc8
+LAB1(config-svc)# svlan 8
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc9
+LAB1(config-svc)# svlan 9
+LAB1(config-svc)# ethernet service add evc10
+svlan 10
+service type evpl
+ethernet service add evc11
+svlan 11
+service type evpl
+ethernet service add evc12
+svlan 12
+service type evpl
+ethernet service add evc13
+svlan 13
+service type evpl
+ethernet service add evc14
+svlan 14
+service type evpl
+ethernet service add evc15
+svlan 15
+service type evpl
+LAB1(config-svc)# ethernet service add evc10
+LAB1(config-svc)# svlan 10
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc11
+LAB1(config-svc)# svlan 11
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc12
+LAB1(config-svc)# svlan 12
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc13
+LAB1(config-svc)# svlan 13
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc14
+LAB1(config-svc)# svlan 14
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc15
+LAB1(config-svc)# service type evpl
+ethernet service add evc16
+svlan 16
+service type evpl
+ethernet service add evc17
+svlan 17
+service type evpl
+ethernet service add evc18
+svlan 18
+service type evpl
+ethernet service add evc19
+svlan 19
+service type evpl
+ethernet service add evc20
+svlan 20
+service type evpl
+ethernet service add evc21
+svlan 15
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc16
+LAB1(config-svc)# svlan 16
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc17
+LAB1(config-svc)# svlan 17
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc18
+LAB1(config-svc)# svlan 18
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc19
+LAB1(config-svc)# svlan 19
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc20
+LAB1(config-svc)# svlan 20
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 21
+service type evpl
+ethernet service add evc22
+svlan 22
+service type evpl
+ethernet service add evc23
+svlan 23
+service type evpl
+ethernet service add evc24
+svlan 24
+service type evpl
+ethernet service add evc25
+svlan 25
+service type evpl
+ethernet service add evc26
+svlan 26
+service type evpl
+ethernet service add evc21
+LAB1(config-svc)# svlan 21
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc22
+LAB1(config-svc)# svlan 22
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc23
+LAB1(config-svc)# svlan 23
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc24
+LAB1(config-svc)# svlan 24
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc25
+LAB1(config-svc)# svlan 25
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc26
+LAB1(config-svc)# svlan 26
+LAB1(config-svc)# ethernet service add evc27
+svlan 27
+service type evpl
+ethernet service add evc28
+svlan 28
+service type evpl
+ethernet service add evc29
+svlan 29
+service type evpl
+ethernet service add evc30
+svlan 30
+service type evpl
+ethernet service add evc31
+svlan 31
+service type evpl
+ethernet service add evc32
+svlan 32
+service type evpl
+LAB1(config-svc)# ethernet service add evc27
+LAB1(config-svc)# svlan 27
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc28
+LAB1(config-svc)# svlan 28
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc29
+LAB1(config-svc)# svlan 29
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc30
+LAB1(config-svc)# svlan 30
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc31
+LAB1(config-svc)# svlan 31
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc32
+LAB1(config-svc)# service type evpl
+ethernet service add evc33
+svlan 33
+service type evpl
+ethernet service add evc34
+svlan 34
+service type evpl
+ethernet service add evc35
+svlan 35
+service type evpl
+ethernet service add evc36
+svlan 36
+service type evpl
+ethernet service add evc37
+svlan 37
+service type evpl
+ethernet service add evc38
+svlan 32
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc33
+LAB1(config-svc)# svlan 33
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc34
+LAB1(config-svc)# svlan 34
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc35
+LAB1(config-svc)# svlan 35
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc36
+LAB1(config-svc)# svlan 36
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc37
+LAB1(config-svc)# svlan 37
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 38
+service type evpl
+ethernet service add evc39
+svlan 39
+service type evpl
+ethernet service add evc40
+svlan 40
+service type evpl
+ethernet service add evc41
+svlan 41
+service type evpl
+ethernet service add evc42
+svlan 42
+service type evpl
+ethernet service add evc43
+svlan 43
+service type evpl
+ethernet service add evc38
+LAB1(config-svc)# svlan 38
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc39
+LAB1(config-svc)# svlan 39
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc40
+LAB1(config-svc)# svlan 40
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc41
+LAB1(config-svc)# svlan 41
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc42
+LAB1(config-svc)# svlan 42
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc43
+LAB1(config-svc)# svlan 43
+LAB1(config-svc)# ethernet service add evc44
+svlan 44
+service type evpl
+ethernet service add evc45
+svlan 45
+service type evpl
+ethernet service add evc46
+svlan 46
+service type evpl
+ethernet service add evc47
+svlan 47
+service type evpl
+ethernet service add evc48
+svlan 48
+service type evpl
+ethernet service add evc49
+svlan 49
+service type evpl
+LAB1(config-svc)# ethernet service add evc44
+LAB1(config-svc)# svlan 44
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc45
+LAB1(config-svc)# svlan 45
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc46
+LAB1(config-svc)# svlan 46
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc47
+LAB1(config-svc)# svlan 47
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc48
+LAB1(config-svc)# svlan 48
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc49
+LAB1(config-svc)# service type evpl
+ethernet service add evc50
+svlan 50
+service type evpl
+ethernet service add evc51
+svlan 51
+service type evpl
+ethernet service add evc52
+svlan 52
+service type evpl
+ethernet service add evc53
+svlan 53
+service type evpl
+ethernet service add evc54
+svlan 54
+service type evpl
+ethernet service add evc55
+svlan 49
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc50
+LAB1(config-svc)# svlan 50
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc51
+LAB1(config-svc)# svlan 51
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc52
+LAB1(config-svc)# svlan 52
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc53
+LAB1(config-svc)# svlan 53
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc54
+LAB1(config-svc)# svlan 54
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 55
+service type evpl
+ethernet service add evc56
+svlan 56
+service type evpl
+ethernet service add evc57
+svlan 57
+service type evpl
+ethernet service add evc58
+svlan 58
+service type evpl
+ethernet service add evc59
+svlan 59
+service type evpl
+ethernet service add evc60
+svlan 60
+service type evpl
+ethernet service add evc55
+LAB1(config-svc)# svlan 55
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc56
+LAB1(config-svc)# svlan 56
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc57
+LAB1(config-svc)# svlan 57
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc58
+LAB1(config-svc)# svlan 58
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc59
+LAB1(config-svc)# svlan 59
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc60
+LAB1(config-svc)# svlan 60
+LAB1(config-svc)# ethernet service add evc61
+svlan 61
+service type evpl
+ethernet service add evc62
+svlan 62
+service type evpl
+ethernet service add evc63
+svlan 63
+service type evpl
+ethernet service add evc64
+svlan 64
+service type evpl
+ethernet service add evc65
+svlan 65
+service type evpl
+ethernet service add evc66
+svlan 66
+service type evpl
+LAB1(config-svc)# ethernet service add evc61
+LAB1(config-svc)# svlan 61
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc62
+LAB1(config-svc)# svlan 62
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc63
+LAB1(config-svc)# svlan 63
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc64
+LAB1(config-svc)# svlan 64
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc65
+LAB1(config-svc)# svlan 65
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc66
+LAB1(config-svc)# service type evpl
+ethernet service add evc67
+svlan 67
+service type evpl
+ethernet service add evc68
+svlan 68
+service type evpl
+ethernet service add evc69
+svlan 69
+service type evpl
+ethernet service add evc70
+svlan 70
+service type evpl
+ethernet service add evc71
+svlan 71
+service type evpl
+ethernet service add evc72
+svlan 66
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc67
+LAB1(config-svc)# svlan 67
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc68
+LAB1(config-svc)# svlan 68
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc69
+LAB1(config-svc)# svlan 69
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc70
+LAB1(config-svc)# svlan 70
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc71
+LAB1(config-svc)# svlan 71
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 72
+service type evpl
+ethernet service add evc73
+svlan 73
+service type evpl
+ethernet service add evc74
+svlan 74
+service type evpl
+ethernet service add evc75
+svlan 75
+service type evpl
+ethernet service add evc76
+svlan 76
+service type evpl
+ethernet service add evc77
+svlan 77
+service type evpl
+ethernet service add evc72
+LAB1(config-svc)# svlan 72
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc73
+LAB1(config-svc)# svlan 73
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc74
+LAB1(config-svc)# svlan 74
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc75
+LAB1(config-svc)# svlan 75
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc76
+LAB1(config-svc)# svlan 76
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc77
+LAB1(config-svc)# svlan 77
+LAB1(config-svc)# ethernet service add evc78
+svlan 78
+service type evpl
+ethernet service add evc79
+svlan 79
+service type evpl
+ethernet service add evc80
+svlan 80
+service type evpl
+ethernet service add evc81
+svlan 81
+service type evpl
+ethernet service add evc82
+svlan 82
+service type evpl
+ethernet service add evc83
+svlan 83
+service type evpl
+LAB1(config-svc)# ethernet service add evc78
+LAB1(config-svc)# svlan 78
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc79
+LAB1(config-svc)# svlan 79
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc80
+LAB1(config-svc)# svlan 80
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc81
+LAB1(config-svc)# svlan 81
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc82
+LAB1(config-svc)# svlan 82
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc83
+LAB1(config-svc)# service type evpl
+ethernet service add evc84
+svlan 84
+service type evpl
+ethernet service add evc85
+svlan 85
+service type evpl
+ethernet service add evc86
+svlan 86
+service type evpl
+ethernet service add evc87
+svlan 87
+service type evpl
+ethernet service add evc88
+svlan 88
+service type evpl
+ethernet service add evc89
+svlan 83
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc84
+LAB1(config-svc)# svlan 84
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc85
+LAB1(config-svc)# svlan 85
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc86
+LAB1(config-svc)# svlan 86
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc87
+LAB1(config-svc)# svlan 87
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc88
+LAB1(config-svc)# svlan 88
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 89
+service type evpl
+ethernet service add evc90
+svlan 90
+service type evpl
+ethernet service add evc91
+svlan 91
+service type evpl
+ethernet service add evc92
+svlan 92
+service type evpl
+ethernet service add evc93
+svlan 93
+service type evpl
+ethernet service add evc94
+svlan 94
+service type evpl
+ethernet service add evc89
+LAB1(config-svc)# svlan 89
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc90
+LAB1(config-svc)# svlan 90
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc91
+LAB1(config-svc)# svlan 91
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc92
+LAB1(config-svc)# svlan 92
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc93
+LAB1(config-svc)# svlan 93
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc94
+LAB1(config-svc)# svlan 94
+LAB1(config-svc)# ethernet service add evc95
+svlan 95
+service type evpl
+ethernet service add evc96
+svlan 96
+service type evpl
+ethernet service add evc97
+svlan 97
+service type evpl
+ethernet service add evc98
+svlan 98
+service type evpl
+ethernet service add evc99
+svlan 99
+service type evpl
+ethernet service add evc100
+svlan 100
+service type evpl
+LAB1(config-svc)# ethernet service add evc95
+LAB1(config-svc)# svlan 95
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc96
+LAB1(config-svc)# svlan 96
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc97
+LAB1(config-svc)# svlan 97
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc98
+LAB1(config-svc)# svlan 98
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc99
+LAB1(config-svc)# svlan 99
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc100
+LAB1(config-svc)# service type evpl
+ethernet service add evc101
+svlan 101
+service type evpl
+ethernet service add evc102
+svlan 102
+service type evpl
+ethernet service add evc103
+svlan 103
+service type evpl
+ethernet service add evc104
+svlan 104
+service type evpl
+ethernet service add evc105
+svlan 105
+service type evpl
+ethernet service add evc106
+svlan 100
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc101
+LAB1(config-svc)# svlan 101
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc102
+LAB1(config-svc)# svlan 102
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc103
+LAB1(config-svc)# svlan 103
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc104
+LAB1(config-svc)# svlan 104
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc105
+LAB1(config-svc)# svlan 105
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 106
+service type evpl
+ethernet service add evc107
+svlan 107
+service type evpl
+ethernet service add evc108
+svlan 108
+service type evpl
+ethernet service add evc109
+svlan 109
+service type evpl
+ethernet service add evc110
+svlan 110
+service type evpl
+ethernet service add evc111
+svlan 111
+service type evpl
+ethernet service add evc106
+LAB1(config-svc)# svlan 106
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc107
+LAB1(config-svc)# svlan 107
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc108
+LAB1(config-svc)# svlan 108
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc109
+LAB1(config-svc)# svlan 109
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc110
+LAB1(config-svc)# svlan 110
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc111
+LAB1(config-svc)# svlan 111
+LAB1(config-svc)# ethernet service add evc112
+svlan 112
+service type evpl
+ethernet service add evc113
+svlan 113
+service type evpl
+ethernet service add evc114
+svlan 114
+service type evpl
+ethernet service add evc115
+svlan 115
+service type evpl
+ethernet service add evc116
+svlan 116
+service type evpl
+ethernet service add evc117
+svlan 117
+service type evpl
+LAB1(config-svc)# ethernet service add evc112
+LAB1(config-svc)# svlan 112
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc113
+LAB1(config-svc)# svlan 113
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc114
+LAB1(config-svc)# svlan 114
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc115
+LAB1(config-svc)# svlan 115
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc116
+LAB1(config-svc)# svlan 116
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc117
+LAB1(config-svc)# service type evpl
+ethernet service add evc118
+svlan 118
+service type evpl
+ethernet service add evc119
+svlan 119
+service type evpl
+ethernet service add evc120
+svlan 120
+service type evpl
+ethernet service add evc121
+svlan 121
+service type evpl
+ethernet service add evc122
+svlan 122
+service type evpl
+ethernet service add evc123
+svlan 117
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc118
+LAB1(config-svc)# svlan 118
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc119
+LAB1(config-svc)# svlan 119
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc120
+LAB1(config-svc)# svlan 120
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc121
+LAB1(config-svc)# svlan 121
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc122
+LAB1(config-svc)# svlan 122
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 123
+service type evpl
+ethernet service add evc124
+svlan 124
+service type evpl
+ethernet service add evc125
+svlan 125
+service type evpl
+ethernet service add evc126
+svlan 126
+service type evpl
+ethernet service add evc127
+svlan 127
+service type evpl
+ethernet service add evc128
+svlan 128
+service type evpl
+ethernet service add evc123
+LAB1(config-svc)# svlan 123
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc124
+LAB1(config-svc)# svlan 124
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc125
+LAB1(config-svc)# svlan 125
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc126
+LAB1(config-svc)# svlan 126
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc127
+LAB1(config-svc)# svlan 127
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc128
+LAB1(config-svc)# svlan 128
+LAB1(config-svc)# ethernet service add evc129
+svlan 129
+service type evpl
+ethernet service add evc130
+svlan 130
+service type evpl
+ethernet service add evc131
+svlan 131
+service type evpl
+ethernet service add evc132
+svlan 132
+service type evpl
+ethernet service add evc133
+svlan 133
+service type evpl
+ethernet service add evc134
+svlan 134
+service type evpl
+LAB1(config-svc)# ethernet service add evc129
+LAB1(config-svc)# svlan 129
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc130
+LAB1(config-svc)# svlan 130
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc131
+LAB1(config-svc)# svlan 131
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc132
+LAB1(config-svc)# svlan 132
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc133
+LAB1(config-svc)# svlan 133
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc134
+LAB1(config-svc)# service type evpl
+ethernet service add evc135
+svlan 135
+service type evpl
+ethernet service add evc136
+svlan 136
+service type evpl
+ethernet service add evc137
+svlan 137
+service type evpl
+ethernet service add evc138
+svlan 138
+service type evpl
+ethernet service add evc139
+svlan 139
+service type evpl
+ethernet service add evc140
+svlan 134
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc135
+LAB1(config-svc)# svlan 135
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc136
+LAB1(config-svc)# svlan 136
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc137
+LAB1(config-svc)# svlan 137
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc138
+LAB1(config-svc)# svlan 138
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc139
+LAB1(config-svc)# svlan 139
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 140
+service type evpl
+ethernet service add evc141
+svlan 141
+service type evpl
+ethernet service add evc142
+svlan 142
+service type evpl
+ethernet service add evc143
+svlan 143
+service type evpl
+ethernet service add evc144
+svlan 144
+service type evpl
+ethernet service add evc145
+svlan 145
+service type evpl
+ethernet service add evc140
+LAB1(config-svc)# svlan 140
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc141
+LAB1(config-svc)# svlan 141
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc142
+LAB1(config-svc)# svlan 142
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc143
+LAB1(config-svc)# svlan 143
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc144
+LAB1(config-svc)# svlan 144
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc145
+LAB1(config-svc)# svlan 145
+LAB1(config-svc)# ethernet service add evc146
+svlan 146
+service type evpl
+ethernet service add evc147
+svlan 147
+service type evpl
+ethernet service add evc148
+svlan 148
+service type evpl
+ethernet service add evc149
+svlan 149
+service type evpl
+ethernet service add evc150
+svlan 150
+service type evpl
+ethernet service add evc151
+svlan 151
+service type evpl
+LAB1(config-svc)# ethernet service add evc146
+LAB1(config-svc)# svlan 146
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc147
+LAB1(config-svc)# svlan 147
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc148
+LAB1(config-svc)# svlan 148
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc149
+LAB1(config-svc)# svlan 149
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc150
+LAB1(config-svc)# svlan 150
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc151
+LAB1(config-svc)# service type evpl
+ethernet service add evc152
+svlan 152
+service type evpl
+ethernet service add evc153
+svlan 153
+service type evpl
+ethernet service add evc154
+svlan 154
+service type evpl
+ethernet service add evc155
+svlan 155
+service type evpl
+ethernet service add evc156
+svlan 156
+service type evpl
+ethernet service add evc157
+svlan 151
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc152
+LAB1(config-svc)# svlan 152
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc153
+LAB1(config-svc)# svlan 153
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc154
+LAB1(config-svc)# svlan 154
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc155
+LAB1(config-svc)# svlan 155
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc156
+LAB1(config-svc)# svlan 156
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 157
+service type evpl
+ethernet service add evc158
+svlan 158
+service type evpl
+ethernet service add evc159
+svlan 159
+service type evpl
+ethernet service add evc160
+svlan 160
+service type evpl
+ethernet service add evc161
+svlan 161
+service type evpl
+ethernet service add evc162
+svlan 162
+service type evpl
+ethernet service add evc157
+LAB1(config-svc)# svlan 157
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc158
+LAB1(config-svc)# svlan 158
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc159
+LAB1(config-svc)# svlan 159
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc160
+LAB1(config-svc)# svlan 160
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc161
+LAB1(config-svc)# svlan 161
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc162
+LAB1(config-svc)# svlan 162
+LAB1(config-svc)# ethernet service add evc163
+svlan 163
+service type evpl
+ethernet service add evc164
+svlan 164
+service type evpl
+ethernet service add evc165
+svlan 165
+service type evpl
+ethernet service add evc166
+svlan 166
+service type evpl
+ethernet service add evc167
+svlan 167
+service type evpl
+ethernet service add evc168
+svlan 168
+service type evpl
+LAB1(config-svc)# ethernet service add evc163
+LAB1(config-svc)# svlan 163
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc164
+LAB1(config-svc)# svlan 164
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc165
+LAB1(config-svc)# svlan 165
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc166
+LAB1(config-svc)# svlan 166
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc167
+LAB1(config-svc)# svlan 167
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc168
+LAB1(config-svc)# service type evpl
+ethernet service add evc169
+svlan 169
+service type evpl
+ethernet service add evc170
+svlan 170
+service type evpl
+ethernet service add evc171
+svlan 171
+service type evpl
+ethernet service add evc172
+svlan 172
+service type evpl
+ethernet service add evc173
+svlan 173
+service type evpl
+ethernet service add evc174
+svlan 168
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc169
+LAB1(config-svc)# svlan 169
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc170
+LAB1(config-svc)# svlan 170
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc171
+LAB1(config-svc)# svlan 171
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc172
+LAB1(config-svc)# svlan 172
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc173
+LAB1(config-svc)# svlan 173
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 174
+service type evpl
+ethernet service add evc175
+svlan 175
+service type evpl
+ethernet service add evc176
+svlan 176
+service type evpl
+ethernet service add evc177
+svlan 177
+service type evpl
+ethernet service add evc178
+svlan 178
+service type evpl
+ethernet service add evc179
+svlan 179
+service type evpl
+ethernet service add evc174
+LAB1(config-svc)# svlan 174
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc175
+LAB1(config-svc)# svlan 175
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc176
+LAB1(config-svc)# svlan 176
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc177
+LAB1(config-svc)# svlan 177
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc178
+LAB1(config-svc)# svlan 178
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc179
+LAB1(config-svc)# svlan 179
+LAB1(config-svc)# ethernet service add evc180
+svlan 180
+service type evpl
+ethernet service add evc181
+svlan 181
+service type evpl
+ethernet service add evc182
+svlan 182
+service type evpl
+ethernet service add evc183
+svlan 183
+service type evpl
+ethernet service add evc184
+svlan 184
+service type evpl
+ethernet service add evc185
+svlan 185
+service type evpl
+LAB1(config-svc)# ethernet service add evc180
+LAB1(config-svc)# svlan 180
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc181
+LAB1(config-svc)# svlan 181
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc182
+LAB1(config-svc)# svlan 182
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc183
+LAB1(config-svc)# svlan 183
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc184
+LAB1(config-svc)# svlan 184
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc185
+LAB1(config-svc)# service type evpl
+ethernet service add evc186
+svlan 186
+service type evpl
+ethernet service add evc187
+svlan 187
+service type evpl
+ethernet service add evc188
+svlan 188
+service type evpl
+ethernet service add evc189
+svlan 189
+service type evpl
+ethernet service add evc190
+svlan 190
+service type evpl
+ethernet service add evc191
+svlan 185
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc186
+LAB1(config-svc)# svlan 186
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc187
+LAB1(config-svc)# svlan 187
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc188
+LAB1(config-svc)# svlan 188
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc189
+LAB1(config-svc)# svlan 189
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc190
+LAB1(config-svc)# svlan 190
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 191
+service type evpl
+ethernet service add evc192
+svlan 192
+service type evpl
+ethernet service add evc193
+svlan 193
+service type evpl
+ethernet service add evc194
+svlan 194
+service type evpl
+ethernet service add evc195
+svlan 195
+service type evpl
+ethernet service add evc196
+svlan 196
+service type evpl
+ethernet service add evc191
+LAB1(config-svc)# svlan 191
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc192
+LAB1(config-svc)# svlan 192
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc193
+LAB1(config-svc)# svlan 193
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc194
+LAB1(config-svc)# svlan 194
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc195
+LAB1(config-svc)# svlan 195
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc196
+LAB1(config-svc)# svlan 196
+LAB1(config-svc)# ethernet service add evc197
+svlan 197
+service type evpl
+ethernet service add evc198
+svlan 198
+service type evpl
+ethernet service add evc199
+svlan 199
+service type evpl
+ethernet service add evc200
+svlan 200
+service type evpl
+ethernet service add evc201
+svlan 201
+service type evpl
+ethernet service add evc202
+svlan 202
+service type evpl
+LAB1(config-svc)# ethernet service add evc197
+LAB1(config-svc)# svlan 197
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc198
+LAB1(config-svc)# svlan 198
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc199
+LAB1(config-svc)# svlan 199
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc200
+LAB1(config-svc)# svlan 200
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc201
+LAB1(config-svc)# svlan 201
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc202
+LAB1(config-svc)# service type evpl
+ethernet service add evc203
+svlan 203
+service type evpl
+ethernet service add evc204
+svlan 204
+service type evpl
+ethernet service add evc205
+svlan 205
+service type evpl
+ethernet service add evc206
+svlan 206
+service type evpl
+ethernet service add evc207
+svlan 207
+service type evpl
+ethernet service add evc208
+svlan 202
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc203
+LAB1(config-svc)# svlan 203
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc204
+LAB1(config-svc)# svlan 204
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc205
+LAB1(config-svc)# svlan 205
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc206
+LAB1(config-svc)# svlan 206
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc207
+LAB1(config-svc)# svlan 207
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 208
+service type evpl
+ethernet service add evc209
+svlan 209
+service type evpl
+ethernet service add evc210
+svlan 210
+service type evpl
+ethernet service add evc211
+svlan 211
+service type evpl
+ethernet service add evc212
+svlan 212
+service type evpl
+ethernet service add evc213
+svlan 213
+service type evpl
+ethernet service add evc208
+LAB1(config-svc)# svlan 208
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc209
+LAB1(config-svc)# svlan 209
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc210
+LAB1(config-svc)# svlan 210
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc211
+LAB1(config-svc)# svlan 211
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc212
+LAB1(config-svc)# svlan 212
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc213
+LAB1(config-svc)# svlan 213
+LAB1(config-svc)# ethernet service add evc214
+svlan 214
+service type evpl
+ethernet service add evc215
+svlan 215
+service type evpl
+ethernet service add evc216
+svlan 216
+service type evpl
+ethernet service add evc217
+svlan 217
+service type evpl
+ethernet service add evc218
+svlan 218
+service type evpl
+ethernet service add evc219
+svlan 219
+service type evpl
+LAB1(config-svc)# ethernet service add evc214
+LAB1(config-svc)# svlan 214
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc215
+LAB1(config-svc)# svlan 215
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc216
+LAB1(config-svc)# svlan 216
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc217
+LAB1(config-svc)# svlan 217
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc218
+LAB1(config-svc)# svlan 218
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc219
+LAB1(config-svc)# service type evpl
+ethernet service add evc220
+svlan 220
+service type evpl
+ethernet service add evc221
+svlan 221
+service type evpl
+ethernet service add evc222
+svlan 222
+service type evpl
+ethernet service add evc223
+svlan 223
+service type evpl
+ethernet service add evc224
+svlan 224
+service type evpl
+ethernet service add evc225
+svlan 219
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc220
+LAB1(config-svc)# svlan 220
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc221
+LAB1(config-svc)# svlan 221
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc222
+LAB1(config-svc)# svlan 222
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc223
+LAB1(config-svc)# svlan 223
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc224
+LAB1(config-svc)# svlan 224
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 225
+service type evpl
+ethernet service add evc226
+svlan 226
+service type evpl
+ethernet service add evc227
+svlan 227
+service type evpl
+ethernet service add evc228
+svlan 228
+service type evpl
+ethernet service add evc229
+svlan 229
+service type evpl
+ethernet service add evc230
+svlan 230
+service type evpl
+ethernet service add evc225
+LAB1(config-svc)# svlan 225
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc226
+LAB1(config-svc)# svlan 226
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc227
+LAB1(config-svc)# svlan 227
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc228
+LAB1(config-svc)# svlan 228
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc229
+LAB1(config-svc)# svlan 229
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc230
+LAB1(config-svc)# svlan 230
+LAB1(config-svc)# ethernet service add evc231
+svlan 231
+service type evpl
+ethernet service add evc232
+svlan 232
+service type evpl
+ethernet service add evc233
+svlan 233
+service type evpl
+ethernet service add evc234
+svlan 234
+service type evpl
+ethernet service add evc235
+svlan 235
+service type evpl
+ethernet service add evc236
+svlan 236
+service type evpl
+LAB1(config-svc)# ethernet service add evc231
+LAB1(config-svc)# svlan 231
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc232
+LAB1(config-svc)# svlan 232
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc233
+LAB1(config-svc)# svlan 233
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc234
+LAB1(config-svc)# svlan 234
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc235
+LAB1(config-svc)# svlan 235
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc236
+LAB1(config-svc)# service type evpl
+ethernet service add evc237
+svlan 237
+service type evpl
+ethernet service add evc238
+svlan 238
+service type evpl
+ethernet service add evc239
+svlan 239
+service type evpl
+ethernet service add evc240
+svlan 240
+service type evpl
+ethernet service add evc241
+svlan 241
+service type evpl
+ethernet service add evc242
+svlan 236
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc237
+LAB1(config-svc)# svlan 237
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc238
+LAB1(config-svc)# svlan 238
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc239
+LAB1(config-svc)# svlan 239
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc240
+LAB1(config-svc)# svlan 240
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc241
+LAB1(config-svc)# svlan 241
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# svlan 242
+service type evpl
+ethernet service add evc243
+svlan 243
+service type evpl
+ethernet service add evc244
+svlan 244
+service type evpl
+ethernet service add evc245
+svlan 245
+service type evpl
+ethernet service add evc246
+svlan 246
+service type evpl
+ethernet service add evc247
+svlan 247
+service type evpl
+ethernet service add evc242
+LAB1(config-svc)# svlan 242
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc243
+LAB1(config-svc)# svlan 243
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc244
+LAB1(config-svc)# svlan 244
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc245
+LAB1(config-svc)# svlan 245
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc246
+LAB1(config-svc)# svlan 246
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc247
+LAB1(config-svc)# svlan 247
+LAB1(config-svc)# ethernet service add evc248
+svlan 248
+service type evpl
+ethernet service add evc249
+svlan 249
+service type evpl
+ethernet service add evc250
+svlan 250
+service type evpl
+ethernet service add evc251
+svlan 251
+service type evpl
+ethernet service add evc252
+svlan 252
+service type evpl
+ethernet service add evc253
+svlan 253
+service type evpl
+LAB1(config-svc)# ethernet service add evc248
+LAB1(config-svc)# svlan 248
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc249
+LAB1(config-svc)# svlan 249
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc250
+LAB1(config-svc)# svlan 250
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc251
+LAB1(config-svc)# svlan 251
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc252
+LAB1(config-svc)# svlan 252
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc253
+LAB1(config-svc)# service type evpl
+ethernet service add evc254
+svlan 254
+service type evpl
+ethernet service add evc255
+svlan 255
+service type evpl
+ethernet service add evc256
+svlan 256
+service type evpl
+
+
+end
+config terminal
+ethernet nni add nni1
+map interface 1/25
+
+add service evc1
+add service evc2
+add service evc3
+svlan 253
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc254
+LAB1(config-svc)# svlan 254
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc255
+LAB1(config-svc)# svlan 255
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# ethernet service add evc256
+LAB1(config-svc)# svlan 256
+LAB1(config-svc)# service type evpl
+LAB1(config-svc)# 
+LAB1(config-svc)# 
+LAB1(config-svc)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet nni add nni1
+LAB1(config-nni)# map interface 1/25
+LAB1(config-nni)# 
+LAB1(config-nni)# add service evc1
+LAB1(config-nni)# add service evc2
+LAB1(config-nni)# add service evc4
+add service evc5
+add service evc6
+add service evc7
+add service evc8
+add service evc9
+add service evc10
+add service evc11
+add service evc12
+add service evc13
+add service evc14
+add service evc15
+add service evc16
+add service evc17
+add service evc18
+add service evc19
+add service evc20
+add service evc21
+add service evc22
+add service evc23
+add service evc3
+LAB1(config-nni)# add service evc4
+LAB1(config-nni)# add service evc5
+LAB1(config-nni)# add service evc6
+LAB1(config-nni)# add service evc7
+LAB1(config-nni)# add service evc8
+LAB1(config-nni)# add service evc9
+LAB1(config-nni)# add service evc10
+LAB1(config-nni)# add service evc11
+LAB1(config-nni)# add service evc12
+LAB1(config-nni)# add service evc13
+LAB1(config-nni)# add service evc14
+LAB1(config-nni)# add service evc15
+LAB1(config-nni)# add service evc16
+LAB1(config-nni)# add service evc17
+LAB1(config-nni)# add service evc18
+LAB1(config-nni)# add service evc19
+LAB1(config-nni)# add service evc20
+LAB1(config-nni)# add service evc21
+LAB1(config-nni)# add service evc22
+LAB1(config-nni)# add service evc24
+add service evc25
+add service evc26
+add service evc27
+add service evc28
+add service evc29
+add service evc30
+add service evc31
+add service evc32
+add service evc33
+add service evc34
+add service evc35
+add service evc36
+add service evc37
+add service evc38
+add service evc39
+add service evc40
+add service evc41
+add service evc42
+add service evc43
+add service evc23
+LAB1(config-nni)# add service evc24
+LAB1(config-nni)# add service evc25
+LAB1(config-nni)# add service evc26
+LAB1(config-nni)# add service evc27
+LAB1(config-nni)# add service evc28
+LAB1(config-nni)# add service evc29
+LAB1(config-nni)# add service evc30
+LAB1(config-nni)# add service evc31
+LAB1(config-nni)# add service evc32
+LAB1(config-nni)# add service evc33
+LAB1(config-nni)# add service evc34
+LAB1(config-nni)# add service evc35
+LAB1(config-nni)# add service evc36
+LAB1(config-nni)# add service evc37
+LAB1(config-nni)# add service evc38
+LAB1(config-nni)# add service evc39
+LAB1(config-nni)# add service evc40
+LAB1(config-nni)# add service evc41
+LAB1(config-nni)# add service evc42
+LAB1(config-nni)# add service evc44
+add service evc45
+add service evc46
+add service evc47
+add service evc48
+add service evc49
+add service evc50
+add service evc51
+add service evc52
+add service evc53
+add service evc54
+add service evc55
+add service evc56
+add service evc57
+add service evc58
+add service evc59
+add service evc60
+add service evc61
+add service evc62
+add service evc63
+add service evc43
+LAB1(config-nni)# add service evc44
+LAB1(config-nni)# add service evc45
+LAB1(config-nni)# add service evc46
+LAB1(config-nni)# add service evc47
+LAB1(config-nni)# add service evc48
+LAB1(config-nni)# add service evc49
+LAB1(config-nni)# add service evc50
+LAB1(config-nni)# add service evc51
+LAB1(config-nni)# add service evc52
+LAB1(config-nni)# add service evc53
+LAB1(config-nni)# add service evc54
+LAB1(config-nni)# add service evc55
+LAB1(config-nni)# add service evc56
+LAB1(config-nni)# add service evc57
+LAB1(config-nni)# add service evc58
+LAB1(config-nni)# add service evc59
+LAB1(config-nni)# add service evc60
+LAB1(config-nni)# add service evc61
+LAB1(config-nni)# add service evc62
+LAB1(config-nni)# add service evc64
+add service evc65
+add service evc66
+add service evc67
+add service evc68
+add service evc69
+add service evc70
+add service evc71
+add service evc72
+add service evc73
+add service evc74
+add service evc75
+add service evc76
+add service evc77
+add service evc78
+add service evc79
+add service evc80
+add service evc81
+add service evc82
+add service evc83
+add service evc63
+LAB1(config-nni)# add service evc64
+LAB1(config-nni)# add service evc65
+LAB1(config-nni)# add service evc66
+LAB1(config-nni)# add service evc67
+LAB1(config-nni)# add service evc68
+LAB1(config-nni)# add service evc69
+LAB1(config-nni)# add service evc70
+LAB1(config-nni)# add service evc71
+LAB1(config-nni)# add service evc72
+LAB1(config-nni)# add service evc73
+LAB1(config-nni)# add service evc74
+LAB1(config-nni)# add service evc75
+LAB1(config-nni)# add service evc76
+LAB1(config-nni)# add service evc77
+LAB1(config-nni)# add service evc78
+LAB1(config-nni)# add service evc79
+LAB1(config-nni)# add service evc80
+LAB1(config-nni)# add service evc81
+LAB1(config-nni)# add service evc82
+LAB1(config-nni)# add service evc84
+add service evc85
+add service evc86
+add service evc87
+add service evc88
+add service evc89
+add service evc90
+add service evc91
+add service evc92
+add service evc93
+add service evc94
+add service evc95
+add service evc96
+add service evc97
+add service evc98
+add service evc99
+add service evc100
+add service evc101
+add service evc102
+add service evc103
+add service evc83
+LAB1(config-nni)# add service evc84
+LAB1(config-nni)# add service evc85
+LAB1(config-nni)# add service evc86
+LAB1(config-nni)# add service evc87
+LAB1(config-nni)# add service evc88
+LAB1(config-nni)# add service evc89
+LAB1(config-nni)# add service evc90
+LAB1(config-nni)# add service evc91
+LAB1(config-nni)# add service evc92
+LAB1(config-nni)# add service evc93
+LAB1(config-nni)# add service evc94
+LAB1(config-nni)# add service evc95
+LAB1(config-nni)# add service evc96
+LAB1(config-nni)# add service evc97
+LAB1(config-nni)# add service evc98
+LAB1(config-nni)# add service evc99
+LAB1(config-nni)# add service evc100
+LAB1(config-nni)# add service evc101
+LAB1(config-nni)# add service evc102
+LAB1(config-nni)# add service evc104
+add service evc105
+add service evc106
+add service evc107
+add service evc108
+add service evc109
+add service evc110
+add service evc111
+add service evc112
+add service evc113
+add service evc114
+add service evc115
+add service evc116
+add service evc117
+add service evc118
+add service evc119
+add service evc120
+add service evc121
+add service evc122
+add service evc123
+add service evc103
+LAB1(config-nni)# add service evc104
+LAB1(config-nni)# add service evc105
+LAB1(config-nni)# add service evc106
+LAB1(config-nni)# add service evc107
+LAB1(config-nni)# add service evc108
+LAB1(config-nni)# add service evc109
+LAB1(config-nni)# add service evc110
+LAB1(config-nni)# add service evc111
+LAB1(config-nni)# add service evc112
+LAB1(config-nni)# add service evc113
+LAB1(config-nni)# add service evc114
+LAB1(config-nni)# add service evc115
+LAB1(config-nni)# add service evc116
+LAB1(config-nni)# add service evc117
+LAB1(config-nni)# add service evc118
+LAB1(config-nni)# add service evc119
+LAB1(config-nni)# add service evc120
+LAB1(config-nni)# add service evc121
+LAB1(config-nni)# add service evc122
+LAB1(config-nni)# add service evc124
+add service evc125
+add service evc126
+add service evc127
+add service evc128
+add service evc129
+add service evc130
+add service evc131
+add service evc132
+add service evc133
+add service evc134
+add service evc135
+add service evc136
+add service evc137
+add service evc138
+add service evc139
+add service evc140
+add service evc141
+add service evc142
+add service evc143
+add service evc123
+LAB1(config-nni)# add service evc124
+LAB1(config-nni)# add service evc125
+LAB1(config-nni)# add service evc126
+LAB1(config-nni)# add service evc127
+LAB1(config-nni)# add service evc128
+LAB1(config-nni)# add service evc129
+LAB1(config-nni)# add service evc130
+LAB1(config-nni)# add service evc131
+LAB1(config-nni)# add service evc132
+LAB1(config-nni)# add service evc133
+LAB1(config-nni)# add service evc134
+LAB1(config-nni)# add service evc135
+LAB1(config-nni)# add service evc136
+LAB1(config-nni)# add service evc137
+LAB1(config-nni)# add service evc138
+LAB1(config-nni)# add service evc139
+LAB1(config-nni)# add service evc140
+LAB1(config-nni)# add service evc141
+LAB1(config-nni)# add service evc142
+LAB1(config-nni)# add service evc144
+add service evc145
+add service evc146
+add service evc147
+add service evc148
+add service evc149
+add service evc150
+add service evc151
+add service evc152
+add service evc153
+add service evc154
+add service evc155
+add service evc156
+add service evc157
+add service evc158
+add service evc159
+add service evc160
+add service evc161
+add service evc162
+add service evc163
+add service evc143
+LAB1(config-nni)# add service evc144
+LAB1(config-nni)# add service evc145
+LAB1(config-nni)# add service evc146
+LAB1(config-nni)# add service evc147
+LAB1(config-nni)# add service evc148
+LAB1(config-nni)# add service evc149
+LAB1(config-nni)# add service evc150
+LAB1(config-nni)# add service evc151
+LAB1(config-nni)# add service evc152
+LAB1(config-nni)# add service evc153
+LAB1(config-nni)# add service evc154
+LAB1(config-nni)# add service evc155
+LAB1(config-nni)# add service evc156
+LAB1(config-nni)# add service evc157
+LAB1(config-nni)# add service evc158
+LAB1(config-nni)# add service evc159
+LAB1(config-nni)# add service evc160
+LAB1(config-nni)# add service evc161
+LAB1(config-nni)# add service evc162
+LAB1(config-nni)# add service evc164
+add service evc165
+add service evc166
+add service evc167
+add service evc168
+add service evc169
+add service evc170
+add service evc171
+add service evc172
+add service evc173
+add service evc174
+add service evc175
+add service evc176
+add service evc177
+add service evc178
+add service evc179
+add service evc180
+add service evc181
+add service evc182
+add service evc183
+add service evc163
+LAB1(config-nni)# add service evc164
+LAB1(config-nni)# add service evc165
+LAB1(config-nni)# add service evc166
+LAB1(config-nni)# add service evc167
+LAB1(config-nni)# add service evc168
+LAB1(config-nni)# add service evc169
+LAB1(config-nni)# add service evc170
+LAB1(config-nni)# add service evc171
+LAB1(config-nni)# add service evc172
+LAB1(config-nni)# add service evc173
+LAB1(config-nni)# add service evc174
+LAB1(config-nni)# add service evc175
+LAB1(config-nni)# add service evc176
+LAB1(config-nni)# add service evc177
+LAB1(config-nni)# add service evc178
+LAB1(config-nni)# add service evc179
+LAB1(config-nni)# add service evc180
+LAB1(config-nni)# add service evc181
+LAB1(config-nni)# add service evc182
+LAB1(config-nni)# add service evc184
+add service evc185
+add service evc186
+add service evc187
+add service evc188
+add service evc189
+add service evc190
+add service evc191
+add service evc192
+add service evc193
+add service evc194
+add service evc195
+add service evc196
+add service evc197
+add service evc198
+add service evc199
+add service evc200
+add service evc201
+add service evc202
+add service evc203
+add service evc183
+LAB1(config-nni)# add service evc184
+LAB1(config-nni)# add service evc185
+LAB1(config-nni)# add service evc186
+LAB1(config-nni)# add service evc187
+LAB1(config-nni)# add service evc188
+LAB1(config-nni)# add service evc189
+LAB1(config-nni)# add service evc190
+LAB1(config-nni)# add service evc191
+LAB1(config-nni)# add service evc192
+LAB1(config-nni)# add service evc193
+LAB1(config-nni)# add service evc194
+LAB1(config-nni)# add service evc195
+LAB1(config-nni)# add service evc196
+LAB1(config-nni)# add service evc197
+LAB1(config-nni)# add service evc198
+LAB1(config-nni)# add service evc199
+LAB1(config-nni)# add service evc200
+LAB1(config-nni)# add service evc201
+LAB1(config-nni)# add service evc202
+LAB1(config-nni)# add service evc204
+add service evc205
+add service evc206
+add service evc207
+add service evc208
+add service evc209
+add service evc210
+add service evc211
+add service evc212
+add service evc213
+add service evc214
+add service evc215
+add service evc216
+add service evc217
+add service evc218
+add service evc219
+add service evc220
+add service evc221
+add service evc222
+add service evc223
+add service evc203
+LAB1(config-nni)# add service evc204
+LAB1(config-nni)# add service evc205
+LAB1(config-nni)# add service evc206
+LAB1(config-nni)# add service evc207
+LAB1(config-nni)# add service evc208
+LAB1(config-nni)# add service evc209
+LAB1(config-nni)# add service evc210
+LAB1(config-nni)# add service evc211
+LAB1(config-nni)# add service evc212
+LAB1(config-nni)# add service evc213
+LAB1(config-nni)# add service evc214
+LAB1(config-nni)# add service evc215
+LAB1(config-nni)# add service evc216
+LAB1(config-nni)# add service evc217
+LAB1(config-nni)# add service evc218
+LAB1(config-nni)# add service evc219
+LAB1(config-nni)# add service evc220
+LAB1(config-nni)# add service evc221
+LAB1(config-nni)# add service evc222
+LAB1(config-nni)# add service evc224
+add service evc225
+add service evc226
+add service evc227
+add service evc228
+add service evc229
+add service evc230
+add service evc231
+add service evc232
+add service evc233
+add service evc234
+add service evc235
+add service evc236
+add service evc237
+add service evc238
+add service evc239
+add service evc240
+add service evc241
+add service evc242
+add service evc243
+add service evc223
+LAB1(config-nni)# add service evc224
+LAB1(config-nni)# add service evc225
+LAB1(config-nni)# add service evc226
+LAB1(config-nni)# add service evc227
+LAB1(config-nni)# add service evc228
+LAB1(config-nni)# add service evc229
+LAB1(config-nni)# add service evc230
+LAB1(config-nni)# add service evc231
+LAB1(config-nni)# add service evc232
+LAB1(config-nni)# add service evc233
+LAB1(config-nni)# add service evc234
+LAB1(config-nni)# add service evc235
+LAB1(config-nni)# add service evc236
+LAB1(config-nni)# add service evc237
+LAB1(config-nni)# add service evc238
+LAB1(config-nni)# add service evc239
+LAB1(config-nni)# add service evc240
+LAB1(config-nni)# add service evc241
+LAB1(config-nni)# add service evc242
+LAB1(config-nni)# add service evc244
+add service evc245
+add service evc246
+add service evc247
+add service evc248
+add service evc249
+add service evc250
+add service evc251
+add service evc252
+add service evc253
+add service evc254
+add service evc255
+add service evc256
+
+
+end
+config terminal
+ethernet uni add uni1
+map interface 1/1
+all-to-one-bundling disable
+multiplex enable
+add service evc243
+LAB1(config-nni)# add service evc244
+LAB1(config-nni)# add service evc245
+LAB1(config-nni)# add service evc246
+LAB1(config-nni)# add service evc247
+LAB1(config-nni)# add service evc248
+LAB1(config-nni)# add service evc249
+LAB1(config-nni)# add service evc250
+LAB1(config-nni)# add service evc251
+LAB1(config-nni)# add service evc252
+LAB1(config-nni)# add service evc253
+LAB1(config-nni)# add service evc254
+LAB1(config-nni)# add service evc255
+LAB1(config-nni)# add service evc256
+LAB1(config-nni)# 
+LAB1(config-nni)# 
+LAB1(config-nni)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet uni add uni1
+LAB1(config-uni)# map interface 1/1
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# bundling enable
+max-svc 256
+ethernet uni add uni2
+map interface 1/2
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni3
+map interface 1/3
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni4
+map interface 1/4
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni5
+multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni2
+LAB1(config-uni)# map interface 1/2
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni3
+LAB1(config-uni)# map interface 1/3
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni4
+LAB1(config-uni)# map interface 1/4
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# map interface 1/5
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni6
+map interface 1/6
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni7
+map interface 1/7
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni8
+map interface 1/8
+all-to-one-bundling disable
+multiplex enable
+ethernet uni add uni5
+LAB1(config-uni)# map interface 1/5
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni6
+LAB1(config-uni)# map interface 1/6
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni7
+LAB1(config-uni)# map interface 1/7
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni8
+LAB1(config-uni)# map interface 1/8
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# bundling enable
+max-svc 256
+ethernet uni add uni9
+map interface 1/9
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni10
+map interface 1/10
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni11
+map interface 1/11
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni12
+multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni9
+LAB1(config-uni)# map interface 1/9
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni10
+LAB1(config-uni)# map interface 1/10
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni11
+LAB1(config-uni)# map interface 1/11
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# map interface 1/12
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni13
+map interface 1/13
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni14
+map interface 1/14
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni15
+map interface 1/15
+all-to-one-bundling disable
+multiplex enable
+ethernet uni add uni12
+LAB1(config-uni)# map interface 1/12
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni13
+LAB1(config-uni)# map interface 1/13
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni14
+LAB1(config-uni)# map interface 1/14
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni15
+LAB1(config-uni)# map interface 1/15
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# bundling enable
+max-svc 256
+ethernet uni add uni16
+map interface 1/16
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni17
+map interface 1/17
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni18
+map interface 1/18
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni19
+multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni16
+LAB1(config-uni)# map interface 1/16
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni17
+LAB1(config-uni)# map interface 1/17
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni18
+LAB1(config-uni)# map interface 1/18
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# map interface 1/19
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni20
+map interface 1/20
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni21
+map interface 1/21
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni22
+map interface 1/22
+all-to-one-bundling disable
+multiplex enable
+ethernet uni add uni19
+LAB1(config-uni)# map interface 1/19
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni20
+LAB1(config-uni)# map interface 1/20
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni21
+LAB1(config-uni)# map interface 1/21
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni22
+LAB1(config-uni)# map interface 1/22
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# bundling enable
+max-svc 256
+ethernet uni add uni23
+map interface 1/23
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+ethernet uni add uni24
+map interface 1/24
+all-to-one-bundling disable
+multiplex enable
+bundling enable
+max-svc 256
+
+
+end
+config terminal
+ethernet uni uni1
+add service evc1
+add service evc2
+add service evc3
+multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni23
+LAB1(config-uni)# map interface 1/23
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# ethernet uni add uni24
+LAB1(config-uni)# map interface 1/24
+LAB1(config-uni)# all-to-one-bundling disable
+LAB1(config-uni)# multiplex enable
+LAB1(config-uni)# bundling enable
+LAB1(config-uni)# max-svc 256
+LAB1(config-uni)# 
+LAB1(config-uni)# 
+LAB1(config-uni)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet uni uni1
+LAB1(config-uni)# add service evc1
+LAB1(config-uni)# add service evc2
+LAB1(config-uni)# add service evc4
+add service evc5
+add service evc6
+add service evc7
+add service evc8
+add service evc9
+add service evc10
+ethernet uni uni2
+add service evc11
+add service evc12
+add service evc13
+add service evc14
+add service evc15
+add service evc16
+add service evc17
+add service evc18
+add service evc19
+add service evc20
+ethernet uni uni3
+add service evc21
+add service evc22
+add service evc23
+add service evc3
+LAB1(config-uni)# add service evc4
+LAB1(config-uni)# add service evc5
+LAB1(config-uni)# add service evc6
+LAB1(config-uni)# add service evc7
+LAB1(config-uni)# add service evc8
+LAB1(config-uni)# add service evc9
+LAB1(config-uni)# add service evc10
+LAB1(config-uni)# ethernet uni uni2
+LAB1(config-uni)# add service evc11
+LAB1(config-uni)# add service evc12
+LAB1(config-uni)# add service evc13
+LAB1(config-uni)# add service evc14
+LAB1(config-uni)# add service evc15
+LAB1(config-uni)# add service evc16
+LAB1(config-uni)# add service evc17
+LAB1(config-uni)# add service evc18
+LAB1(config-uni)# add service evc19
+LAB1(config-uni)# add service evc20
+LAB1(config-uni)# ethernet uni uni3
+LAB1(config-uni)# add service evc21
+LAB1(config-uni)# add service evc22
+LAB1(config-uni)# add service evc24
+add service evc25
+add service evc26
+add service evc27
+add service evc28
+add service evc29
+add service evc30
+ethernet uni uni4
+add service evc31
+add service evc32
+add service evc33
+add service evc34
+add service evc35
+add service evc36
+add service evc37
+add service evc38
+add service evc39
+add service evc40
+ethernet uni uni5
+add service evc41
+add service evc42
+add service evc43
+add service evc23
+LAB1(config-uni)# add service evc24
+LAB1(config-uni)# add service evc25
+LAB1(config-uni)# add service evc26
+LAB1(config-uni)# add service evc27
+LAB1(config-uni)# add service evc28
+LAB1(config-uni)# add service evc29
+LAB1(config-uni)# add service evc30
+LAB1(config-uni)# ethernet uni uni4
+LAB1(config-uni)# add service evc31
+LAB1(config-uni)# add service evc32
+LAB1(config-uni)# add service evc33
+LAB1(config-uni)# add service evc34
+LAB1(config-uni)# add service evc35
+LAB1(config-uni)# add service evc36
+LAB1(config-uni)# add service evc37
+LAB1(config-uni)# add service evc38
+LAB1(config-uni)# add service evc39
+LAB1(config-uni)# add service evc40
+LAB1(config-uni)# ethernet uni uni5
+LAB1(config-uni)# add service evc41
+LAB1(config-uni)# add service evc42
+LAB1(config-uni)# add service evc44
+add service evc45
+add service evc46
+add service evc47
+add service evc48
+add service evc49
+add service evc50
+ethernet uni uni6
+add service evc51
+add service evc52
+add service evc53
+add service evc54
+add service evc55
+add service evc56
+add service evc57
+add service evc58
+add service evc59
+add service evc60
+ethernet uni uni7
+add service evc61
+add service evc62
+add service evc63
+add service evc43
+LAB1(config-uni)# add service evc44
+LAB1(config-uni)# add service evc45
+LAB1(config-uni)# add service evc46
+LAB1(config-uni)# add service evc47
+LAB1(config-uni)# add service evc48
+LAB1(config-uni)# add service evc49
+LAB1(config-uni)# add service evc50
+LAB1(config-uni)# ethernet uni uni6
+LAB1(config-uni)# add service evc51
+LAB1(config-uni)# add service evc52
+LAB1(config-uni)# add service evc53
+LAB1(config-uni)# add service evc54
+LAB1(config-uni)# add service evc55
+LAB1(config-uni)# add service evc56
+LAB1(config-uni)# add service evc57
+LAB1(config-uni)# add service evc58
+LAB1(config-uni)# add service evc59
+LAB1(config-uni)# add service evc60
+LAB1(config-uni)# ethernet uni uni7
+LAB1(config-uni)# add service evc61
+LAB1(config-uni)# add service evc62
+LAB1(config-uni)# add service evc64
+add service evc65
+add service evc66
+add service evc67
+add service evc68
+add service evc69
+add service evc70
+ethernet uni uni8
+add service evc71
+add service evc72
+add service evc73
+add service evc74
+add service evc75
+add service evc76
+add service evc77
+add service evc78
+add service evc79
+add service evc80
+ethernet uni uni9
+add service evc81
+add service evc82
+add service evc83
+add service evc63
+LAB1(config-uni)# add service evc64
+LAB1(config-uni)# add service evc65
+LAB1(config-uni)# add service evc66
+LAB1(config-uni)# add service evc67
+LAB1(config-uni)# add service evc68
+LAB1(config-uni)# add service evc69
+LAB1(config-uni)# add service evc70
+LAB1(config-uni)# ethernet uni uni8
+LAB1(config-uni)# add service evc71
+LAB1(config-uni)# add service evc72
+LAB1(config-uni)# add service evc73
+LAB1(config-uni)# add service evc74
+LAB1(config-uni)# add service evc75
+LAB1(config-uni)# add service evc76
+LAB1(config-uni)# add service evc77
+LAB1(config-uni)# add service evc78
+LAB1(config-uni)# add service evc79
+LAB1(config-uni)# add service evc80
+LAB1(config-uni)# ethernet uni uni9
+LAB1(config-uni)# add service evc81
+LAB1(config-uni)# add service evc82
+LAB1(config-uni)# add service evc84
+add service evc85
+add service evc86
+add service evc87
+add service evc88
+add service evc89
+add service evc90
+ethernet uni uni10
+add service evc91
+add service evc92
+add service evc93
+add service evc94
+add service evc95
+add service evc96
+add service evc97
+add service evc98
+add service evc99
+add service evc100
+ethernet uni uni11
+add service evc101
+add service evc102
+add service evc103
+add service evc83
+LAB1(config-uni)# add service evc84
+LAB1(config-uni)# add service evc85
+LAB1(config-uni)# add service evc86
+LAB1(config-uni)# add service evc87
+LAB1(config-uni)# add service evc88
+LAB1(config-uni)# add service evc89
+LAB1(config-uni)# add service evc90
+LAB1(config-uni)# ethernet uni uni10
+LAB1(config-uni)# add service evc91
+LAB1(config-uni)# add service evc92
+LAB1(config-uni)# add service evc93
+LAB1(config-uni)# add service evc94
+LAB1(config-uni)# add service evc95
+LAB1(config-uni)# add service evc96
+LAB1(config-uni)# add service evc97
+LAB1(config-uni)# add service evc98
+LAB1(config-uni)# add service evc99
+LAB1(config-uni)# add service evc100
+LAB1(config-uni)# ethernet uni uni11
+LAB1(config-uni)# add service evc101
+LAB1(config-uni)# add service evc102
+LAB1(config-uni)# add service evc104
+add service evc105
+add service evc106
+add service evc107
+add service evc108
+add service evc109
+add service evc110
+ethernet uni uni12
+add service evc111
+add service evc112
+add service evc113
+add service evc114
+add service evc115
+add service evc116
+add service evc117
+add service evc118
+add service evc119
+add service evc120
+ethernet uni uni13
+add service evc121
+add service evc122
+add service evc123
+add service evc103
+LAB1(config-uni)# add service evc104
+LAB1(config-uni)# add service evc105
+LAB1(config-uni)# add service evc106
+LAB1(config-uni)# add service evc107
+LAB1(config-uni)# add service evc108
+LAB1(config-uni)# add service evc109
+LAB1(config-uni)# add service evc110
+LAB1(config-uni)# ethernet uni uni12
+LAB1(config-uni)# add service evc111
+LAB1(config-uni)# add service evc112
+LAB1(config-uni)# add service evc113
+LAB1(config-uni)# add service evc114
+LAB1(config-uni)# add service evc115
+LAB1(config-uni)# add service evc116
+LAB1(config-uni)# add service evc117
+LAB1(config-uni)# add service evc118
+LAB1(config-uni)# add service evc119
+LAB1(config-uni)# add service evc120
+LAB1(config-uni)# ethernet uni uni13
+LAB1(config-uni)# add service evc121
+LAB1(config-uni)# add service evc122
+LAB1(config-uni)# add service evc124
+add service evc125
+add service evc126
+add service evc127
+add service evc128
+add service evc129
+add service evc130
+ethernet uni uni14
+add service evc131
+add service evc132
+add service evc133
+add service evc134
+add service evc135
+add service evc136
+add service evc137
+add service evc138
+add service evc139
+add service evc140
+ethernet uni uni15
+add service evc141
+add service evc142
+add service evc143
+add service evc123
+LAB1(config-uni)# add service evc124
+LAB1(config-uni)# add service evc125
+LAB1(config-uni)# add service evc126
+LAB1(config-uni)# add service evc127
+LAB1(config-uni)# add service evc128
+LAB1(config-uni)# add service evc129
+LAB1(config-uni)# add service evc130
+LAB1(config-uni)# ethernet uni uni14
+LAB1(config-uni)# add service evc131
+LAB1(config-uni)# add service evc132
+LAB1(config-uni)# add service evc133
+LAB1(config-uni)# add service evc134
+LAB1(config-uni)# add service evc135
+LAB1(config-uni)# add service evc136
+LAB1(config-uni)# add service evc137
+LAB1(config-uni)# add service evc138
+LAB1(config-uni)# add service evc139
+LAB1(config-uni)# add service evc140
+LAB1(config-uni)# ethernet uni uni15
+LAB1(config-uni)# add service evc141
+LAB1(config-uni)# add service evc142
+LAB1(config-uni)# add service evc144
+add service evc145
+add service evc146
+add service evc147
+add service evc148
+add service evc149
+add service evc150
+ethernet uni uni16
+add service evc151
+add service evc152
+add service evc153
+add service evc154
+add service evc155
+add service evc156
+add service evc157
+add service evc158
+add service evc159
+add service evc160
+ethernet uni uni17
+add service evc161
+add service evc162
+add service evc163
+add service evc143
+LAB1(config-uni)# add service evc144
+LAB1(config-uni)# add service evc145
+LAB1(config-uni)# add service evc146
+LAB1(config-uni)# add service evc147
+LAB1(config-uni)# add service evc148
+LAB1(config-uni)# add service evc149
+LAB1(config-uni)# add service evc150
+LAB1(config-uni)# ethernet uni uni16
+LAB1(config-uni)# add service evc151
+LAB1(config-uni)# add service evc152
+LAB1(config-uni)# add service evc153
+LAB1(config-uni)# add service evc154
+LAB1(config-uni)# add service evc155
+LAB1(config-uni)# add service evc156
+LAB1(config-uni)# add service evc157
+LAB1(config-uni)# add service evc158
+LAB1(config-uni)# add service evc159
+LAB1(config-uni)# add service evc160
+LAB1(config-uni)# ethernet uni uni17
+LAB1(config-uni)# add service evc161
+LAB1(config-uni)# add service evc162
+LAB1(config-uni)# add service evc164
+add service evc165
+add service evc166
+add service evc167
+add service evc168
+add service evc169
+add service evc170
+ethernet uni uni18
+add service evc171
+add service evc172
+add service evc173
+add service evc174
+add service evc175
+add service evc176
+add service evc177
+add service evc178
+add service evc179
+add service evc180
+ethernet uni uni19
+add service evc181
+add service evc182
+add service evc183
+add service evc163
+LAB1(config-uni)# add service evc164
+LAB1(config-uni)# add service evc165
+LAB1(config-uni)# add service evc166
+LAB1(config-uni)# add service evc167
+LAB1(config-uni)# add service evc168
+LAB1(config-uni)# add service evc169
+LAB1(config-uni)# add service evc170
+LAB1(config-uni)# ethernet uni uni18
+LAB1(config-uni)# add service evc171
+LAB1(config-uni)# add service evc172
+LAB1(config-uni)# add service evc173
+LAB1(config-uni)# add service evc174
+LAB1(config-uni)# add service evc175
+LAB1(config-uni)# add service evc176
+LAB1(config-uni)# add service evc177
+LAB1(config-uni)# add service evc178
+LAB1(config-uni)# add service evc179
+LAB1(config-uni)# add service evc180
+LAB1(config-uni)# ethernet uni uni19
+LAB1(config-uni)# add service evc181
+LAB1(config-uni)# add service evc182
+LAB1(config-uni)# add service evc184
+add service evc185
+add service evc186
+add service evc187
+add service evc188
+add service evc189
+add service evc190
+ethernet uni uni20
+add service evc191
+add service evc192
+add service evc193
+add service evc194
+add service evc195
+add service evc196
+add service evc197
+add service evc198
+add service evc199
+add service evc200
+ethernet uni uni21
+add service evc201
+add service evc202
+add service evc203
+add service evc183
+LAB1(config-uni)# add service evc184
+LAB1(config-uni)# add service evc185
+LAB1(config-uni)# add service evc186
+LAB1(config-uni)# add service evc187
+LAB1(config-uni)# add service evc188
+LAB1(config-uni)# add service evc189
+LAB1(config-uni)# add service evc190
+LAB1(config-uni)# ethernet uni uni20
+LAB1(config-uni)# add service evc191
+LAB1(config-uni)# add service evc192
+LAB1(config-uni)# add service evc193
+LAB1(config-uni)# add service evc194
+LAB1(config-uni)# add service evc195
+LAB1(config-uni)# add service evc196
+LAB1(config-uni)# add service evc197
+LAB1(config-uni)# add service evc198
+LAB1(config-uni)# add service evc199
+LAB1(config-uni)# add service evc200
+LAB1(config-uni)# ethernet uni uni21
+LAB1(config-uni)# add service evc201
+LAB1(config-uni)# add service evc202
+LAB1(config-uni)# add service evc204
+add service evc205
+add service evc206
+add service evc207
+add service evc208
+add service evc209
+add service evc210
+ethernet uni uni22
+add service evc211
+add service evc212
+add service evc213
+add service evc214
+add service evc215
+add service evc216
+add service evc217
+add service evc218
+add service evc219
+add service evc220
+ethernet uni uni23
+add service evc221
+add service evc222
+add service evc223
+add service evc203
+LAB1(config-uni)# add service evc204
+LAB1(config-uni)# add service evc205
+LAB1(config-uni)# add service evc206
+LAB1(config-uni)# add service evc207
+LAB1(config-uni)# add service evc208
+LAB1(config-uni)# add service evc209
+LAB1(config-uni)# add service evc210
+LAB1(config-uni)# ethernet uni uni22
+LAB1(config-uni)# add service evc211
+LAB1(config-uni)# add service evc212
+LAB1(config-uni)# add service evc213
+LAB1(config-uni)# add service evc214
+LAB1(config-uni)# add service evc215
+LAB1(config-uni)# add service evc216
+LAB1(config-uni)# add service evc217
+LAB1(config-uni)# add service evc218
+LAB1(config-uni)# add service evc219
+LAB1(config-uni)# add service evc220
+LAB1(config-uni)# ethernet uni uni23
+LAB1(config-uni)# add service evc221
+LAB1(config-uni)# add service evc222
+LAB1(config-uni)# add service evc224
+add service evc225
+add service evc226
+add service evc227
+add service evc228
+add service evc229
+add service evc230
+ethernet uni uni24
+add service evc231
+add service evc232
+add service evc233
+add service evc234
+add service evc235
+add service evc236
+add service evc237
+add service evc238
+add service evc239
+add service evc240
+add service evc241
+add service evc242
+add service evc243
+add service evc244
+add service evc223
+LAB1(config-uni)# add service evc224
+LAB1(config-uni)# add service evc225
+LAB1(config-uni)# add service evc226
+LAB1(config-uni)# add service evc227
+LAB1(config-uni)# add service evc228
+LAB1(config-uni)# add service evc229
+LAB1(config-uni)# add service evc230
+LAB1(config-uni)# ethernet uni uni24
+LAB1(config-uni)# add service evc231
+LAB1(config-uni)# add service evc232
+LAB1(config-uni)# add service evc233
+LAB1(config-uni)# add service evc234
+LAB1(config-uni)# add service evc235
+LAB1(config-uni)# add service evc236
+LAB1(config-uni)# add service evc237
+LAB1(config-uni)# add service evc238
+LAB1(config-uni)# add service evc239
+LAB1(config-uni)# add service evc240
+LAB1(config-uni)# add service evc241
+LAB1(config-uni)# add service evc242
+LAB1(config-uni)# add service evc243
+LAB1(config-uni)# add service evc245
+add service evc246
+add service evc247
+add service evc248
+add service evc249
+add service evc250
+add service evc251
+add service evc252
+add service evc253
+add service evc254
+add service evc255
+add service evc256
+
+
+end
+config terminal
+ethernet sep uni1-evc1
+add vlan 1-15
+ethernet sep uni1-evc2
+add vlan 16-30
+ethernet sep uni1-evc3
+add vlan 31-45
+ethernet sep uni1-evc4
+add service evc244
+LAB1(config-uni)# add service evc245
+LAB1(config-uni)# add service evc246
+LAB1(config-uni)# add service evc247
+LAB1(config-uni)# add service evc248
+LAB1(config-uni)# add service evc249
+LAB1(config-uni)# add service evc250
+LAB1(config-uni)# add service evc251
+LAB1(config-uni)# add service evc252
+LAB1(config-uni)# add service evc253
+LAB1(config-uni)# add service evc254
+LAB1(config-uni)# add service evc255
+LAB1(config-uni)# add service evc256
+LAB1(config-uni)# 
+LAB1(config-uni)# 
+LAB1(config-uni)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet sep uni1-evc1
+LAB1(config-ep)# add vlan 1-15
+LAB1(config-ep)# ethernet sep uni1-evc2
+LAB1(config-ep)# add vlan 16-30
+LAB1(config-ep)# ethernet sep uni1-evc3
+LAB1(config-ep)# add vlan 31-45
+LAB1(config-ep)# add vlan 46-60
+ethernet sep uni1-evc5
+add vlan 61-75
+ethernet sep uni1-evc6
+add vlan 76-90
+ethernet sep uni1-evc7
+add vlan 91-105
+ethernet sep uni1-evc8
+add vlan 106-120
+ethernet sep uni1-evc9
+add vlan 121-135
+ethernet sep uni1-evc10
+add vlan 136-150
+ethernet sep uni2-evc11
+add vlan 151-165
+ethernet sep uni2-evc12
+add vlan 166-180
+ethernet sep uni2-evc13
+add vlan 181-195
+ethernet sep uni2-evc14
+add vlan 196-210
+ethernet sep uni2-evc15
+add vlan 211-225
+ethernet sep uni1-evc4
+LAB1(config-ep)# add vlan 46-60
+LAB1(config-ep)# ethernet sep uni1-evc5
+LAB1(config-ep)# add vlan 61-75
+LAB1(config-ep)# ethernet sep uni1-evc6
+LAB1(config-ep)# add vlan 76-90
+LAB1(config-ep)# ethernet sep uni1-evc7
+LAB1(config-ep)# add vlan 91-105
+LAB1(config-ep)# ethernet sep uni1-evc8
+LAB1(config-ep)# add vlan 106-120
+LAB1(config-ep)# ethernet sep uni1-evc9
+LAB1(config-ep)# add vlan 121-135
+LAB1(config-ep)# ethernet sep uni1-evc10
+LAB1(config-ep)# add vlan 136-150
+LAB1(config-ep)# ethernet sep uni2-evc11
+LAB1(config-ep)# add vlan 151-165
+LAB1(config-ep)# ethernet sep uni2-evc12
+LAB1(config-ep)# add vlan 166-180
+LAB1(config-ep)# ethernet sep uni2-evc13
+LAB1(config-ep)# add vlan 181-195
+LAB1(config-ep)# ethernet sep uni2-evc14
+LAB1(config-ep)# add vlan 196-210
+LAB1(config-ep)# ethernet sep uni2-evc15
+LAB1(config-ep)# ethernet sep uni2-evc16
+add vlan 226-240
+ethernet sep uni2-evc17
+add vlan 241-255
+ethernet sep uni2-evc18
+add vlan 256-270
+ethernet sep uni2-evc19
+add vlan 271-285
+ethernet sep uni2-evc20
+add vlan 286-300
+ethernet sep uni3-evc21
+add vlan 301-315
+ethernet sep uni3-evc22
+add vlan 316-330
+ethernet sep uni3-evc23
+add vlan 331-345
+ethernet sep uni3-evc24
+add vlan 346-360
+ethernet sep uni3-evc25
+add vlan 361-375
+ethernet sep uni3-evc26
+add vlan 376-390
+ethernet sep uni3-evc27
+add vlan 211-225
+LAB1(config-ep)# ethernet sep uni2-evc16
+LAB1(config-ep)# add vlan 226-240
+LAB1(config-ep)# ethernet sep uni2-evc17
+LAB1(config-ep)# add vlan 241-255
+LAB1(config-ep)# ethernet sep uni2-evc18
+LAB1(config-ep)# add vlan 256-270
+LAB1(config-ep)# ethernet sep uni2-evc19
+LAB1(config-ep)# add vlan 271-285
+LAB1(config-ep)# ethernet sep uni2-evc20
+LAB1(config-ep)# add vlan 286-300
+LAB1(config-ep)# ethernet sep uni3-evc21
+LAB1(config-ep)# add vlan 301-315
+LAB1(config-ep)# ethernet sep uni3-evc22
+LAB1(config-ep)# add vlan 316-330
+LAB1(config-ep)# ethernet sep uni3-evc23
+LAB1(config-ep)# add vlan 331-345
+LAB1(config-ep)# ethernet sep uni3-evc24
+LAB1(config-ep)# add vlan 346-360
+LAB1(config-ep)# ethernet sep uni3-evc25
+LAB1(config-ep)# add vlan 361-375
+LAB1(config-ep)# ethernet sep uni3-evc26
+LAB1(config-ep)# add vlan 376-390
+LAB1(config-ep)# add vlan 391-405
+ethernet sep uni3-evc28
+add vlan 406-420
+ethernet sep uni3-evc29
+add vlan 421-435
+ethernet sep uni3-evc30
+add vlan 436-450
+ethernet sep uni4-evc31
+add vlan 451-465
+ethernet sep uni4-evc32
+add vlan 466-480
+ethernet sep uni4-evc33
+add vlan 481-495
+ethernet sep uni4-evc34
+add vlan 496-510
+ethernet sep uni4-evc35
+add vlan 511-525
+ethernet sep uni4-evc36
+add vlan 526-540
+ethernet sep uni4-evc37
+add vlan 541-555
+ethernet sep uni4-evc38
+add vlan 556-570
+ethernet sep uni3-evc27
+LAB1(config-ep)# add vlan 391-405
+LAB1(config-ep)# ethernet sep uni3-evc28
+LAB1(config-ep)# add vlan 406-420
+LAB1(config-ep)# ethernet sep uni3-evc29
+LAB1(config-ep)# add vlan 421-435
+LAB1(config-ep)# ethernet sep uni3-evc30
+LAB1(config-ep)# add vlan 436-450
+LAB1(config-ep)# ethernet sep uni4-evc31
+LAB1(config-ep)# add vlan 451-465
+LAB1(config-ep)# ethernet sep uni4-evc32
+LAB1(config-ep)# add vlan 466-480
+LAB1(config-ep)# ethernet sep uni4-evc33
+LAB1(config-ep)# add vlan 481-495
+LAB1(config-ep)# ethernet sep uni4-evc34
+LAB1(config-ep)# add vlan 496-510
+LAB1(config-ep)# ethernet sep uni4-evc35
+LAB1(config-ep)# add vlan 511-525
+LAB1(config-ep)# ethernet sep uni4-evc36
+LAB1(config-ep)# add vlan 526-540
+LAB1(config-ep)# ethernet sep uni4-evc37
+LAB1(config-ep)# add vlan 541-555
+LAB1(config-ep)# ethernet sep uni4-evc38
+LAB1(config-ep)# ethernet sep uni4-evc39
+add vlan 571-585
+ethernet sep uni4-evc40
+add vlan 586-600
+ethernet sep uni5-evc41
+add vlan 601-615
+ethernet sep uni5-evc42
+add vlan 616-630
+ethernet sep uni5-evc43
+add vlan 631-645
+ethernet sep uni5-evc44
+add vlan 646-660
+ethernet sep uni5-evc45
+add vlan 661-675
+ethernet sep uni5-evc46
+add vlan 676-690
+ethernet sep uni5-evc47
+add vlan 691-705
+ethernet sep uni5-evc48
+add vlan 706-720
+ethernet sep uni5-evc49
+add vlan 721-735
+ethernet sep uni5-evc50
+add vlan 556-570
+LAB1(config-ep)# ethernet sep uni4-evc39
+LAB1(config-ep)# add vlan 571-585
+LAB1(config-ep)# ethernet sep uni4-evc40
+LAB1(config-ep)# add vlan 586-600
+LAB1(config-ep)# ethernet sep uni5-evc41
+LAB1(config-ep)# add vlan 601-615
+LAB1(config-ep)# ethernet sep uni5-evc42
+LAB1(config-ep)# add vlan 616-630
+LAB1(config-ep)# ethernet sep uni5-evc43
+LAB1(config-ep)# add vlan 631-645
+LAB1(config-ep)# ethernet sep uni5-evc44
+LAB1(config-ep)# add vlan 646-660
+LAB1(config-ep)# ethernet sep uni5-evc45
+LAB1(config-ep)# add vlan 661-675
+LAB1(config-ep)# ethernet sep uni5-evc46
+LAB1(config-ep)# add vlan 676-690
+LAB1(config-ep)# ethernet sep uni5-evc47
+LAB1(config-ep)# add vlan 691-705
+LAB1(config-ep)# ethernet sep uni5-evc48
+LAB1(config-ep)# add vlan 706-720
+LAB1(config-ep)# ethernet sep uni5-evc49
+LAB1(config-ep)# add vlan 721-735
+LAB1(config-ep)# add vlan 736-750
+ethernet sep uni6-evc51
+add vlan 751-765
+ethernet sep uni6-evc52
+add vlan 766-780
+ethernet sep uni6-evc53
+add vlan 781-795
+ethernet sep uni6-evc54
+add vlan 796-810
+ethernet sep uni6-evc55
+add vlan 811-825
+ethernet sep uni6-evc56
+add vlan 826-840
+ethernet sep uni6-evc57
+add vlan 841-855
+ethernet sep uni6-evc58
+add vlan 856-870
+ethernet sep uni6-evc59
+add vlan 871-885
+ethernet sep uni6-evc60
+add vlan 886-900
+ethernet sep uni7-evc61
+add vlan 901-915
+ethernet sep uni5-evc50
+LAB1(config-ep)# add vlan 736-750
+LAB1(config-ep)# ethernet sep uni6-evc51
+LAB1(config-ep)# add vlan 751-765
+LAB1(config-ep)# ethernet sep uni6-evc52
+LAB1(config-ep)# add vlan 766-780
+LAB1(config-ep)# ethernet sep uni6-evc53
+LAB1(config-ep)# add vlan 781-795
+LAB1(config-ep)# ethernet sep uni6-evc54
+LAB1(config-ep)# add vlan 796-810
+LAB1(config-ep)# ethernet sep uni6-evc55
+LAB1(config-ep)# add vlan 811-825
+LAB1(config-ep)# ethernet sep uni6-evc56
+LAB1(config-ep)# add vlan 826-840
+LAB1(config-ep)# ethernet sep uni6-evc57
+LAB1(config-ep)# add vlan 841-855
+LAB1(config-ep)# ethernet sep uni6-evc58
+LAB1(config-ep)# add vlan 856-870
+LAB1(config-ep)# ethernet sep uni6-evc59
+LAB1(config-ep)# add vlan 871-885
+LAB1(config-ep)# ethernet sep uni6-evc60
+LAB1(config-ep)# add vlan 886-900
+LAB1(config-ep)# ethernet sep uni7-evc61
+LAB1(config-ep)# ethernet sep uni7-evc62
+add vlan 916-930
+ethernet sep uni7-evc63
+add vlan 931-945
+ethernet sep uni7-evc64
+add vlan 946-960
+ethernet sep uni7-evc65
+add vlan 961-975
+ethernet sep uni7-evc66
+add vlan 976-990
+ethernet sep uni7-evc67
+add vlan 991-1005
+ethernet sep uni7-evc68
+add vlan 1006-1020
+ethernet sep uni7-evc69
+add vlan 1021-1035
+ethernet sep uni7-evc70
+add vlan 1036-1050
+ethernet sep uni8-evc71
+add vlan 1051-1065
+ethernet sep uni8-evc72
+add vlan 1066-1080
+ethernet sep uni8-evc73
+add vlan 901-915
+LAB1(config-ep)# ethernet sep uni7-evc62
+LAB1(config-ep)# add vlan 916-930
+LAB1(config-ep)# ethernet sep uni7-evc63
+LAB1(config-ep)# add vlan 931-945
+LAB1(config-ep)# ethernet sep uni7-evc64
+LAB1(config-ep)# add vlan 946-960
+LAB1(config-ep)# ethernet sep uni7-evc65
+LAB1(config-ep)# add vlan 961-975
+LAB1(config-ep)# ethernet sep uni7-evc66
+LAB1(config-ep)# add vlan 976-990
+LAB1(config-ep)# ethernet sep uni7-evc67
+LAB1(config-ep)# add vlan 991-1005
+LAB1(config-ep)# ethernet sep uni7-evc68
+LAB1(config-ep)# add vlan 1006-1020
+LAB1(config-ep)# ethernet sep uni7-evc69
+LAB1(config-ep)# add vlan 1021-1035
+LAB1(config-ep)# ethernet sep uni7-evc70
+LAB1(config-ep)# add vlan 1036-1050
+LAB1(config-ep)# ethernet sep uni8-evc71
+LAB1(config-ep)# add vlan 1051-1065
+LAB1(config-ep)# ethernet sep uni8-evc72
+LAB1(config-ep)# add vlan 1066-1080
+LAB1(config-ep)# add vlan 1081-1095
+ethernet sep uni8-evc74
+add vlan 1096-1110
+ethernet sep uni8-evc75
+add vlan 1111-1125
+ethernet sep uni8-evc76
+add vlan 1126-1140
+ethernet sep uni8-evc77
+add vlan 1141-1155
+ethernet sep uni8-evc78
+add vlan 1156-1170
+ethernet sep uni8-evc79
+add vlan 1171-1185
+ethernet sep uni8-evc80
+add vlan 1186-1200
+ethernet sep uni9-evc81
+add vlan 1201-1215
+ethernet sep uni9-evc82
+add vlan 1216-1230
+ethernet sep uni9-evc83
+add vlan 1231-1245
+ethernet sep uni9-evc84
+add vlan 1246-1260
+ethernet sep uni8-evc73
+LAB1(config-ep)# add vlan 1081-1095
+LAB1(config-ep)# ethernet sep uni8-evc74
+LAB1(config-ep)# add vlan 1096-1110
+LAB1(config-ep)# ethernet sep uni8-evc75
+LAB1(config-ep)# add vlan 1111-1125
+LAB1(config-ep)# ethernet sep uni8-evc76
+LAB1(config-ep)# add vlan 1126-1140
+LAB1(config-ep)# ethernet sep uni8-evc77
+LAB1(config-ep)# add vlan 1141-1155
+LAB1(config-ep)# ethernet sep uni8-evc78
+LAB1(config-ep)# add vlan 1156-1170
+LAB1(config-ep)# ethernet sep uni8-evc79
+LAB1(config-ep)# add vlan 1171-1185
+LAB1(config-ep)# ethernet sep uni8-evc80
+LAB1(config-ep)# add vlan 1186-1200
+LAB1(config-ep)# ethernet sep uni9-evc81
+LAB1(config-ep)# add vlan 1201-1215
+LAB1(config-ep)# ethernet sep uni9-evc82
+LAB1(config-ep)# add vlan 1216-1230
+LAB1(config-ep)# ethernet sep uni9-evc83
+LAB1(config-ep)# add vlan 1231-1245
+LAB1(config-ep)# ethernet sep uni9-evc84
+LAB1(config-ep)# ethernet sep uni9-evc85
+add vlan 1261-1275
+ethernet sep uni9-evc86
+add vlan 1276-1290
+ethernet sep uni9-evc87
+add vlan 1291-1305
+ethernet sep uni9-evc88
+add vlan 1306-1320
+ethernet sep uni9-evc89
+add vlan 1321-1335
+ethernet sep uni9-evc90
+add vlan 1336-1350
+ethernet sep uni10-evc91
+add vlan 1351-1365
+ethernet sep uni10-evc92
+add vlan 1366-1380
+ethernet sep uni10-evc93
+add vlan 1381-1395
+ethernet sep uni10-evc94
+add vlan 1396-1410
+ethernet sep uni10-evc95
+add vlan 1411-1425
+ethernet sep uni10-evc96
+add vlan 1246-1260
+LAB1(config-ep)# ethernet sep uni9-evc85
+LAB1(config-ep)# add vlan 1261-1275
+LAB1(config-ep)# ethernet sep uni9-evc86
+LAB1(config-ep)# add vlan 1276-1290
+LAB1(config-ep)# ethernet sep uni9-evc87
+LAB1(config-ep)# add vlan 1291-1305
+LAB1(config-ep)# ethernet sep uni9-evc88
+LAB1(config-ep)# add vlan 1306-1320
+LAB1(config-ep)# ethernet sep uni9-evc89
+LAB1(config-ep)# add vlan 1321-1335
+LAB1(config-ep)# ethernet sep uni9-evc90
+LAB1(config-ep)# add vlan 1336-1350
+LAB1(config-ep)# ethernet sep uni10-evc91
+LAB1(config-ep)# add vlan 1351-1365
+LAB1(config-ep)# ethernet sep uni10-evc92
+LAB1(config-ep)# add vlan 1366-1380
+LAB1(config-ep)# ethernet sep uni10-evc93
+LAB1(config-ep)# add vlan 1381-1395
+LAB1(config-ep)# ethernet sep uni10-evc94
+LAB1(config-ep)# add vlan 1396-1410
+LAB1(config-ep)# ethernet sep uni10-evc95
+LAB1(config-ep)# add vlan 1411-1425
+LAB1(config-ep)# add vlan 1426-1440
+ethernet sep uni10-evc97
+add vlan 1441-1455
+ethernet sep uni10-evc98
+add vlan 1456-1470
+ethernet sep uni10-evc99
+add vlan 1471-1485
+ethernet sep uni10-evc100
+add vlan 1486-1500
+ethernet sep uni11-evc101
+add vlan 1501-1515
+ethernet sep uni11-evc102
+add vlan 1516-1530
+ethernet sep uni11-evc103
+add vlan 1531-1545
+ethernet sep uni11-evc104
+add vlan 1546-1560
+ethernet sep uni11-evc105
+add vlan 1561-1575
+ethernet sep uni11-evc106
+add vlan 1576-1590
+ethernet sep uni11-evc107
+add vlan 1591-1605
+ethernet sep uni10-evc96
+LAB1(config-ep)# add vlan 1426-1440
+LAB1(config-ep)# ethernet sep uni10-evc97
+LAB1(config-ep)# add vlan 1441-1455
+LAB1(config-ep)# ethernet sep uni10-evc98
+LAB1(config-ep)# add vlan 1456-1470
+LAB1(config-ep)# ethernet sep uni10-evc99
+LAB1(config-ep)# add vlan 1471-1485
+LAB1(config-ep)# ethernet sep uni10-evc100
+LAB1(config-ep)# add vlan 1486-1500
+LAB1(config-ep)# ethernet sep uni11-evc101
+LAB1(config-ep)# add vlan 1501-1515
+LAB1(config-ep)# ethernet sep uni11-evc102
+LAB1(config-ep)# add vlan 1516-1530
+LAB1(config-ep)# ethernet sep uni11-evc103
+LAB1(config-ep)# add vlan 1531-1545
+LAB1(config-ep)# ethernet sep uni11-evc104
+LAB1(config-ep)# add vlan 1546-1560
+LAB1(config-ep)# ethernet sep uni11-evc105
+LAB1(config-ep)# add vlan 1561-1575
+LAB1(config-ep)# ethernet sep uni11-evc106
+LAB1(config-ep)# add vlan 1576-1590
+LAB1(config-ep)# ethernet sep uni11-evc107
+LAB1(config-ep)# ethernet sep uni11-evc108
+add vlan 1606-1620
+ethernet sep uni11-evc109
+add vlan 1621-1635
+ethernet sep uni11-evc110
+add vlan 1636-1650
+ethernet sep uni12-evc111
+add vlan 1651-1665
+ethernet sep uni12-evc112
+add vlan 1666-1680
+ethernet sep uni12-evc113
+add vlan 1681-1695
+ethernet sep uni12-evc114
+add vlan 1696-1710
+ethernet sep uni12-evc115
+add vlan 1711-1725
+ethernet sep uni12-evc116
+add vlan 1726-1740
+ethernet sep uni12-evc117
+add vlan 1741-1755
+ethernet sep uni12-evc118
+add vlan 1756-1770
+ethernet sep uni12-evc119
+add vlan 1591-1605
+LAB1(config-ep)# ethernet sep uni11-evc108
+LAB1(config-ep)# add vlan 1606-1620
+LAB1(config-ep)# ethernet sep uni11-evc109
+LAB1(config-ep)# add vlan 1621-1635
+LAB1(config-ep)# ethernet sep uni11-evc110
+LAB1(config-ep)# add vlan 1636-1650
+LAB1(config-ep)# ethernet sep uni12-evc111
+LAB1(config-ep)# add vlan 1651-1665
+LAB1(config-ep)# ethernet sep uni12-evc112
+LAB1(config-ep)# add vlan 1666-1680
+LAB1(config-ep)# ethernet sep uni12-evc113
+LAB1(config-ep)# add vlan 1681-1695
+LAB1(config-ep)# ethernet sep uni12-evc114
+LAB1(config-ep)# add vlan 1696-1710
+LAB1(config-ep)# ethernet sep uni12-evc115
+LAB1(config-ep)# add vlan 1711-1725
+LAB1(config-ep)# ethernet sep uni12-evc116
+LAB1(config-ep)# add vlan 1726-1740
+LAB1(config-ep)# ethernet sep uni12-evc117
+LAB1(config-ep)# add vlan 1741-1755
+LAB1(config-ep)# ethernet sep uni12-evc118
+LAB1(config-ep)# add vlan 1756-1770
+LAB1(config-ep)# add vlan 1771-1785
+ethernet sep uni12-evc120
+add vlan 1786-1800
+ethernet sep uni13-evc121
+add vlan 1801-1815
+ethernet sep uni13-evc122
+add vlan 1816-1830
+ethernet sep uni13-evc123
+add vlan 1831-1845
+ethernet sep uni13-evc124
+add vlan 1846-1860
+ethernet sep uni13-evc125
+add vlan 1861-1875
+ethernet sep uni13-evc126
+add vlan 1876-1890
+ethernet sep uni13-evc127
+add vlan 1891-1905
+ethernet sep uni13-evc128
+add vlan 1906-1920
+ethernet sep uni13-evc129
+add vlan 1921-1935
+ethernet sep uni13-evc130
+add vlan 1936-1950
+ethernet sep uni12-evc119
+LAB1(config-ep)# add vlan 1771-1785
+LAB1(config-ep)# ethernet sep uni12-evc120
+LAB1(config-ep)# add vlan 1786-1800
+LAB1(config-ep)# ethernet sep uni13-evc121
+LAB1(config-ep)# add vlan 1801-1815
+LAB1(config-ep)# ethernet sep uni13-evc122
+LAB1(config-ep)# add vlan 1816-1830
+LAB1(config-ep)# ethernet sep uni13-evc123
+LAB1(config-ep)# add vlan 1831-1845
+LAB1(config-ep)# ethernet sep uni13-evc124
+LAB1(config-ep)# add vlan 1846-1860
+LAB1(config-ep)# ethernet sep uni13-evc125
+LAB1(config-ep)# add vlan 1861-1875
+LAB1(config-ep)# ethernet sep uni13-evc126
+LAB1(config-ep)# add vlan 1876-1890
+LAB1(config-ep)# ethernet sep uni13-evc127
+LAB1(config-ep)# add vlan 1891-1905
+LAB1(config-ep)# ethernet sep uni13-evc128
+LAB1(config-ep)# add vlan 1906-1920
+LAB1(config-ep)# ethernet sep uni13-evc129
+LAB1(config-ep)# add vlan 1921-1935
+LAB1(config-ep)# ethernet sep uni13-evc130
+LAB1(config-ep)# ethernet sep uni14-evc131
+add vlan 1951-1965
+ethernet sep uni14-evc132
+add vlan 1966-1980
+ethernet sep uni14-evc133
+add vlan 1981-1995
+ethernet sep uni14-evc134
+add vlan 1996-2010
+ethernet sep uni14-evc135
+add vlan 2011-2025
+ethernet sep uni14-evc136
+add vlan 2026-2040
+ethernet sep uni14-evc137
+add vlan 2041-2055
+ethernet sep uni14-evc138
+add vlan 2056-2070
+ethernet sep uni14-evc139
+add vlan 2071-2085
+ethernet sep uni14-evc140
+add vlan 2086-2100
+ethernet sep uni15-evc141
+add vlan 2101-2115
+ethernet sep uni15-evc142
+add vlan 1936-1950
+LAB1(config-ep)# ethernet sep uni14-evc131
+LAB1(config-ep)# add vlan 1951-1965
+LAB1(config-ep)# ethernet sep uni14-evc132
+LAB1(config-ep)# add vlan 1966-1980
+LAB1(config-ep)# ethernet sep uni14-evc133
+LAB1(config-ep)# add vlan 1981-1995
+LAB1(config-ep)# ethernet sep uni14-evc134
+LAB1(config-ep)# add vlan 1996-2010
+LAB1(config-ep)# ethernet sep uni14-evc135
+LAB1(config-ep)# add vlan 2011-2025
+LAB1(config-ep)# ethernet sep uni14-evc136
+LAB1(config-ep)# add vlan 2026-2040
+LAB1(config-ep)# ethernet sep uni14-evc137
+LAB1(config-ep)# add vlan 2041-2055
+LAB1(config-ep)# ethernet sep uni14-evc138
+LAB1(config-ep)# add vlan 2056-2070
+LAB1(config-ep)# ethernet sep uni14-evc139
+LAB1(config-ep)# add vlan 2071-2085
+LAB1(config-ep)# ethernet sep uni14-evc140
+LAB1(config-ep)# add vlan 2086-2100
+LAB1(config-ep)# ethernet sep uni15-evc141
+LAB1(config-ep)# add vlan 2101-2115
+LAB1(config-ep)# add vlan 2116-2130
+ethernet sep uni15-evc143
+add vlan 2131-2145
+ethernet sep uni15-evc144
+add vlan 2146-2160
+ethernet sep uni15-evc145
+add vlan 2161-2175
+ethernet sep uni15-evc146
+add vlan 2176-2190
+ethernet sep uni15-evc147
+add vlan 2191-2205
+ethernet sep uni15-evc148
+add vlan 2206-2220
+ethernet sep uni15-evc149
+add vlan 2221-2235
+ethernet sep uni15-evc150
+add vlan 2236-2250
+ethernet sep uni16-evc151
+add vlan 2251-2265
+ethernet sep uni16-evc152
+add vlan 2266-2280
+ethernet sep uni16-evc153
+add vlan 2281-2295
+ethernet sep uni15-evc142
+LAB1(config-ep)# add vlan 2116-2130
+LAB1(config-ep)# ethernet sep uni15-evc143
+LAB1(config-ep)# add vlan 2131-2145
+LAB1(config-ep)# ethernet sep uni15-evc144
+LAB1(config-ep)# add vlan 2146-2160
+LAB1(config-ep)# ethernet sep uni15-evc145
+LAB1(config-ep)# add vlan 2161-2175
+LAB1(config-ep)# ethernet sep uni15-evc146
+LAB1(config-ep)# add vlan 2176-2190
+LAB1(config-ep)# ethernet sep uni15-evc147
+LAB1(config-ep)# add vlan 2191-2205
+LAB1(config-ep)# ethernet sep uni15-evc148
+LAB1(config-ep)# add vlan 2206-2220
+LAB1(config-ep)# ethernet sep uni15-evc149
+LAB1(config-ep)# add vlan 2221-2235
+LAB1(config-ep)# ethernet sep uni15-evc150
+LAB1(config-ep)# add vlan 2236-2250
+LAB1(config-ep)# ethernet sep uni16-evc151
+LAB1(config-ep)# add vlan 2251-2265
+LAB1(config-ep)# ethernet sep uni16-evc152
+LAB1(config-ep)# add vlan 2266-2280
+LAB1(config-ep)# ethernet sep uni16-evc153
+LAB1(config-ep)# ethernet sep uni16-evc154
+add vlan 2296-2310
+ethernet sep uni16-evc155
+add vlan 2311-2325
+ethernet sep uni16-evc156
+add vlan 2326-2340
+ethernet sep uni16-evc157
+add vlan 2341-2355
+ethernet sep uni16-evc158
+add vlan 2356-2370
+ethernet sep uni16-evc159
+add vlan 2371-2385
+ethernet sep uni16-evc160
+add vlan 2386-2400
+ethernet sep uni17-evc161
+add vlan 2401-2415
+ethernet sep uni17-evc162
+add vlan 2416-2430
+ethernet sep uni17-evc163
+add vlan 2431-2445
+ethernet sep uni17-evc164
+add vlan 2446-2460
+ethernet sep uni17-evc165
+add vlan 2281-2295
+LAB1(config-ep)# ethernet sep uni16-evc154
+LAB1(config-ep)# add vlan 2296-2310
+LAB1(config-ep)# ethernet sep uni16-evc155
+LAB1(config-ep)# add vlan 2311-2325
+LAB1(config-ep)# ethernet sep uni16-evc156
+LAB1(config-ep)# add vlan 2326-2340
+LAB1(config-ep)# ethernet sep uni16-evc157
+LAB1(config-ep)# add vlan 2341-2355
+LAB1(config-ep)# ethernet sep uni16-evc158
+LAB1(config-ep)# add vlan 2356-2370
+LAB1(config-ep)# ethernet sep uni16-evc159
+LAB1(config-ep)# add vlan 2371-2385
+LAB1(config-ep)# ethernet sep uni16-evc160
+LAB1(config-ep)# add vlan 2386-2400
+LAB1(config-ep)# ethernet sep uni17-evc161
+LAB1(config-ep)# add vlan 2401-2415
+LAB1(config-ep)# ethernet sep uni17-evc162
+LAB1(config-ep)# add vlan 2416-2430
+LAB1(config-ep)# ethernet sep uni17-evc163
+LAB1(config-ep)# add vlan 2431-2445
+LAB1(config-ep)# ethernet sep uni17-evc164
+LAB1(config-ep)# add vlan 2446-2460
+LAB1(config-ep)# add vlan 2461-2475
+ethernet sep uni17-evc166
+add vlan 2476-2490
+ethernet sep uni17-evc167
+add vlan 2491-2505
+ethernet sep uni17-evc168
+add vlan 2506-2520
+ethernet sep uni17-evc169
+add vlan 2521-2535
+ethernet sep uni17-evc170
+add vlan 2536-2550
+ethernet sep uni18-evc171
+add vlan 2551-2565
+ethernet sep uni18-evc172
+add vlan 2566-2580
+ethernet sep uni18-evc173
+add vlan 2581-2595
+ethernet sep uni18-evc174
+add vlan 2596-2610
+ethernet sep uni18-evc175
+add vlan 2611-2625
+ethernet sep uni18-evc176
+add vlan 2626-2640
+ethernet sep uni17-evc165
+LAB1(config-ep)# add vlan 2461-2475
+LAB1(config-ep)# ethernet sep uni17-evc166
+LAB1(config-ep)# add vlan 2476-2490
+LAB1(config-ep)# ethernet sep uni17-evc167
+LAB1(config-ep)# add vlan 2491-2505
+LAB1(config-ep)# ethernet sep uni17-evc168
+LAB1(config-ep)# add vlan 2506-2520
+LAB1(config-ep)# ethernet sep uni17-evc169
+LAB1(config-ep)# add vlan 2521-2535
+LAB1(config-ep)# ethernet sep uni17-evc170
+LAB1(config-ep)# add vlan 2536-2550
+LAB1(config-ep)# ethernet sep uni18-evc171
+LAB1(config-ep)# add vlan 2551-2565
+LAB1(config-ep)# ethernet sep uni18-evc172
+LAB1(config-ep)# add vlan 2566-2580
+LAB1(config-ep)# ethernet sep uni18-evc173
+LAB1(config-ep)# add vlan 2581-2595
+LAB1(config-ep)# ethernet sep uni18-evc174
+LAB1(config-ep)# add vlan 2596-2610
+LAB1(config-ep)# ethernet sep uni18-evc175
+LAB1(config-ep)# add vlan 2611-2625
+LAB1(config-ep)# ethernet sep uni18-evc176
+LAB1(config-ep)# ethernet sep uni18-evc177
+add vlan 2641-2655
+ethernet sep uni18-evc178
+add vlan 2656-2670
+ethernet sep uni18-evc179
+add vlan 2671-2685
+ethernet sep uni18-evc180
+add vlan 2686-2700
+ethernet sep uni19-evc181
+add vlan 2701-2715
+ethernet sep uni19-evc182
+add vlan 2716-2730
+ethernet sep uni19-evc183
+add vlan 2731-2745
+ethernet sep uni19-evc184
+add vlan 2746-2760
+ethernet sep uni19-evc185
+add vlan 2761-2775
+ethernet sep uni19-evc186
+add vlan 2776-2790
+ethernet sep uni19-evc187
+add vlan 2791-2805
+ethernet sep uni19-evc188
+add vlan 2626-2640
+LAB1(config-ep)# ethernet sep uni18-evc177
+LAB1(config-ep)# add vlan 2641-2655
+LAB1(config-ep)# ethernet sep uni18-evc178
+LAB1(config-ep)# add vlan 2656-2670
+LAB1(config-ep)# ethernet sep uni18-evc179
+LAB1(config-ep)# add vlan 2671-2685
+LAB1(config-ep)# ethernet sep uni18-evc180
+LAB1(config-ep)# add vlan 2686-2700
+LAB1(config-ep)# ethernet sep uni19-evc181
+LAB1(config-ep)# add vlan 2701-2715
+LAB1(config-ep)# ethernet sep uni19-evc182
+LAB1(config-ep)# add vlan 2716-2730
+LAB1(config-ep)# ethernet sep uni19-evc183
+LAB1(config-ep)# add vlan 2731-2745
+LAB1(config-ep)# ethernet sep uni19-evc184
+LAB1(config-ep)# add vlan 2746-2760
+LAB1(config-ep)# ethernet sep uni19-evc185
+LAB1(config-ep)# add vlan 2761-2775
+LAB1(config-ep)# ethernet sep uni19-evc186
+LAB1(config-ep)# add vlan 2776-2790
+LAB1(config-ep)# ethernet sep uni19-evc187
+LAB1(config-ep)# add vlan 2791-2805
+LAB1(config-ep)# add vlan 2806-2820
+ethernet sep uni19-evc189
+add vlan 2821-2835
+ethernet sep uni19-evc190
+add vlan 2836-2850
+ethernet sep uni20-evc191
+add vlan 2851-2865
+ethernet sep uni20-evc192
+add vlan 2866-2880
+ethernet sep uni20-evc193
+add vlan 2881-2895
+ethernet sep uni20-evc194
+add vlan 2896-2910
+ethernet sep uni20-evc195
+add vlan 2911-2925
+ethernet sep uni20-evc196
+add vlan 2926-2940
+ethernet sep uni20-evc197
+add vlan 2941-2955
+ethernet sep uni20-evc198
+add vlan 2956-2970
+ethernet sep uni20-evc199
+add vlan 2971-2985
+ethernet sep uni19-evc188
+LAB1(config-ep)# add vlan 2806-2820
+LAB1(config-ep)# ethernet sep uni19-evc189
+LAB1(config-ep)# add vlan 2821-2835
+LAB1(config-ep)# ethernet sep uni19-evc190
+LAB1(config-ep)# add vlan 2836-2850
+LAB1(config-ep)# ethernet sep uni20-evc191
+LAB1(config-ep)# add vlan 2851-2865
+LAB1(config-ep)# ethernet sep uni20-evc192
+LAB1(config-ep)# add vlan 2866-2880
+LAB1(config-ep)# ethernet sep uni20-evc193
+LAB1(config-ep)# add vlan 2881-2895
+LAB1(config-ep)# ethernet sep uni20-evc194
+LAB1(config-ep)# add vlan 2896-2910
+LAB1(config-ep)# ethernet sep uni20-evc195
+LAB1(config-ep)# add vlan 2911-2925
+LAB1(config-ep)# ethernet sep uni20-evc196
+LAB1(config-ep)# add vlan 2926-2940
+LAB1(config-ep)# ethernet sep uni20-evc197
+LAB1(config-ep)# add vlan 2941-2955
+LAB1(config-ep)# ethernet sep uni20-evc198
+LAB1(config-ep)# add vlan 2956-2970
+LAB1(config-ep)# ethernet sep uni20-evc199
+LAB1(config-ep)# ethernet sep uni20-evc200
+add vlan 2986-3000
+ethernet sep uni21-evc201
+add vlan 3001-3015
+ethernet sep uni21-evc202
+add vlan 3016-3030
+ethernet sep uni21-evc203
+add vlan 3031-3045
+ethernet sep uni21-evc204
+add vlan 3046-3060
+ethernet sep uni21-evc205
+add vlan 3061-3075
+ethernet sep uni21-evc206
+add vlan 3076-3090
+ethernet sep uni21-evc207
+add vlan 3091-3105
+ethernet sep uni21-evc208
+add vlan 3106-3120
+ethernet sep uni21-evc209
+add vlan 3121-3135
+ethernet sep uni21-evc210
+add vlan 3136-3150
+ethernet sep uni22-evc211
+add vlan 2971-2985
+LAB1(config-ep)# ethernet sep uni20-evc200
+LAB1(config-ep)# add vlan 2986-3000
+LAB1(config-ep)# ethernet sep uni21-evc201
+LAB1(config-ep)# add vlan 3001-3015
+LAB1(config-ep)# ethernet sep uni21-evc202
+LAB1(config-ep)# add vlan 3016-3030
+LAB1(config-ep)# ethernet sep uni21-evc203
+LAB1(config-ep)# add vlan 3031-3045
+LAB1(config-ep)# ethernet sep uni21-evc204
+LAB1(config-ep)# add vlan 3046-3060
+LAB1(config-ep)# ethernet sep uni21-evc205
+LAB1(config-ep)# add vlan 3061-3075
+LAB1(config-ep)# ethernet sep uni21-evc206
+LAB1(config-ep)# add vlan 3076-3090
+LAB1(config-ep)# ethernet sep uni21-evc207
+LAB1(config-ep)# add vlan 3091-3105
+LAB1(config-ep)# ethernet sep uni21-evc208
+LAB1(config-ep)# add vlan 3106-3120
+LAB1(config-ep)# ethernet sep uni21-evc209
+LAB1(config-ep)# add vlan 3121-3135
+LAB1(config-ep)# ethernet sep uni21-evc210
+LAB1(config-ep)# add vlan 3136-3150
+LAB1(config-ep)# add vlan 3151-3165
+ethernet sep uni22-evc212
+add vlan 3166-3180
+ethernet sep uni22-evc213
+add vlan 3181-3195
+ethernet sep uni22-evc214
+add vlan 3196-3210
+ethernet sep uni22-evc215
+add vlan 3211-3225
+ethernet sep uni22-evc216
+add vlan 3226-3240
+ethernet sep uni22-evc217
+add vlan 3241-3255
+ethernet sep uni22-evc218
+add vlan 3256-3270
+ethernet sep uni22-evc219
+add vlan 3271-3285
+ethernet sep uni22-evc220
+add vlan 3286-3300
+ethernet sep uni23-evc221
+add vlan 3301-3315
+ethernet sep uni23-evc222
+add vlan 3316-3330
+ethernet sep uni22-evc211
+LAB1(config-ep)# add vlan 3151-3165
+LAB1(config-ep)# ethernet sep uni22-evc212
+LAB1(config-ep)# add vlan 3166-3180
+LAB1(config-ep)# ethernet sep uni22-evc213
+LAB1(config-ep)# add vlan 3181-3195
+LAB1(config-ep)# ethernet sep uni22-evc214
+LAB1(config-ep)# add vlan 3196-3210
+LAB1(config-ep)# ethernet sep uni22-evc215
+LAB1(config-ep)# add vlan 3211-3225
+LAB1(config-ep)# ethernet sep uni22-evc216
+LAB1(config-ep)# add vlan 3226-3240
+LAB1(config-ep)# ethernet sep uni22-evc217
+LAB1(config-ep)# add vlan 3241-3255
+LAB1(config-ep)# ethernet sep uni22-evc218
+LAB1(config-ep)# add vlan 3256-3270
+LAB1(config-ep)# ethernet sep uni22-evc219
+LAB1(config-ep)# add vlan 3271-3285
+LAB1(config-ep)# ethernet sep uni22-evc220
+LAB1(config-ep)# add vlan 3286-3300
+LAB1(config-ep)# ethernet sep uni23-evc221
+LAB1(config-ep)# add vlan 3301-3315
+LAB1(config-ep)# ethernet sep uni23-evc222
+LAB1(config-ep)# ethernet sep uni23-evc223
+add vlan 3331-3345
+ethernet sep uni23-evc224
+add vlan 3346-3360
+ethernet sep uni23-evc225
+add vlan 3361-3375
+ethernet sep uni23-evc226
+add vlan 3376-3390
+ethernet sep uni23-evc227
+add vlan 3391-3405
+ethernet sep uni23-evc228
+add vlan 3406-3420
+ethernet sep uni23-evc229
+add vlan 3421-3435
+ethernet sep uni23-evc230
+add vlan 3436-3450
+ethernet sep uni24-evc231
+add vlan 3451-3465
+ethernet sep uni24-evc232
+add vlan 3466-3480
+ethernet sep uni24-evc233
+add vlan 3481-3495
+ethernet sep uni24-evc234
+add vlan 3316-3330
+LAB1(config-ep)# ethernet sep uni23-evc223
+LAB1(config-ep)# add vlan 3331-3345
+LAB1(config-ep)# ethernet sep uni23-evc224
+LAB1(config-ep)# add vlan 3346-3360
+LAB1(config-ep)# ethernet sep uni23-evc225
+LAB1(config-ep)# add vlan 3361-3375
+LAB1(config-ep)# ethernet sep uni23-evc226
+LAB1(config-ep)# add vlan 3376-3390
+LAB1(config-ep)# ethernet sep uni23-evc227
+LAB1(config-ep)# add vlan 3391-3405
+LAB1(config-ep)# ethernet sep uni23-evc228
+LAB1(config-ep)# add vlan 3406-3420
+LAB1(config-ep)# ethernet sep uni23-evc229
+LAB1(config-ep)# add vlan 3421-3435
+LAB1(config-ep)# ethernet sep uni23-evc230
+LAB1(config-ep)# add vlan 3436-3450
+LAB1(config-ep)# ethernet sep uni24-evc231
+LAB1(config-ep)# add vlan 3451-3465
+LAB1(config-ep)# ethernet sep uni24-evc232
+LAB1(config-ep)# add vlan 3466-3480
+LAB1(config-ep)# ethernet sep uni24-evc233
+LAB1(config-ep)# add vlan 3481-3495
+LAB1(config-ep)# add vlan 3496-3510
+ethernet sep uni24-evc235
+add vlan 3511-3525
+ethernet sep uni24-evc236
+add vlan 3526-3540
+ethernet sep uni24-evc237
+add vlan 3541-3555
+ethernet sep uni24-evc238
+add vlan 3556-3570
+ethernet sep uni24-evc239
+add vlan 3571-3585
+ethernet sep uni24-evc240
+add vlan 3586-3600
+ethernet sep uni24-evc241
+add vlan 3601-3615
+ethernet sep uni24-evc242
+add vlan 3616-3630
+ethernet sep uni24-evc243
+add vlan 3631-3645
+ethernet sep uni24-evc244
+add vlan 3646-3660
+ethernet sep uni24-evc245
+add vlan 3661-3675
+ethernet sep uni24-evc234
+LAB1(config-ep)# add vlan 3496-3510
+LAB1(config-ep)# ethernet sep uni24-evc235
+LAB1(config-ep)# add vlan 3511-3525
+LAB1(config-ep)# ethernet sep uni24-evc236
+LAB1(config-ep)# add vlan 3526-3540
+LAB1(config-ep)# ethernet sep uni24-evc237
+LAB1(config-ep)# add vlan 3541-3555
+LAB1(config-ep)# ethernet sep uni24-evc238
+LAB1(config-ep)# add vlan 3556-3570
+LAB1(config-ep)# ethernet sep uni24-evc239
+LAB1(config-ep)# add vlan 3571-3585
+LAB1(config-ep)# ethernet sep uni24-evc240
+LAB1(config-ep)# add vlan 3586-3600
+LAB1(config-ep)# ethernet sep uni24-evc241
+LAB1(config-ep)# add vlan 3601-3615
+LAB1(config-ep)# ethernet sep uni24-evc242
+LAB1(config-ep)# add vlan 3616-3630
+LAB1(config-ep)# ethernet sep uni24-evc243
+LAB1(config-ep)# add vlan 3631-3645
+LAB1(config-ep)# ethernet sep uni24-evc244
+LAB1(config-ep)# add vlan 3646-3660
+LAB1(config-ep)# ethernet sep uni24-evc245
+LAB1(config-ep)# ethernet sep uni24-evc246
+add vlan 3676-3690
+ethernet sep uni24-evc247
+add vlan 3691-3705
+ethernet sep uni24-evc248
+add vlan 3706-3720
+ethernet sep uni24-evc249
+add vlan 3721-3735
+ethernet sep uni24-evc250
+add vlan 3736-3750
+ethernet sep uni24-evc251
+add vlan 3751-3765
+ethernet sep uni24-evc252
+add vlan 3766-3780
+ethernet sep uni24-evc253
+add vlan 3781-3795
+ethernet sep uni24-evc254
+add vlan 3796-3810
+ethernet sep uni24-evc255
+add vlan 3811-3825
+ethernet sep uni24-evc256
+add vlan 3826-4095
+
+
+add vlan 3661-3675
+LAB1(config-ep)# ethernet sep uni24-evc246
+LAB1(config-ep)# add vlan 3676-3690
+LAB1(config-ep)# ethernet sep uni24-evc247
+LAB1(config-ep)# add vlan 3691-3705
+LAB1(config-ep)# ethernet sep uni24-evc248
+LAB1(config-ep)# add vlan 3706-3720
+LAB1(config-ep)# ethernet sep uni24-evc249
+LAB1(config-ep)# add vlan 3721-3735
+LAB1(config-ep)# ethernet sep uni24-evc250
+LAB1(config-ep)# add vlan 3736-3750
+LAB1(config-ep)# ethernet sep uni24-evc251
+LAB1(config-ep)# add vlan 3751-3765
+LAB1(config-ep)# ethernet sep uni24-evc252
+LAB1(config-ep)# add vlan 3766-3780
+LAB1(config-ep)# ethernet sep uni24-evc253
+LAB1(config-ep)# add vlan 3781-3795
+LAB1(config-ep)# ethernet sep uni24-evc254
+LAB1(config-ep)# add vlan 3796-3810
+LAB1(config-ep)# ethernet sep uni24-evc255
+LAB1(config-ep)# add vlan 3811-3825
+LAB1(config-ep)# ethernet sep uni24-evc256
+LAB1(config-ep)# add vlan 3826-4095
+LAB1(config-ep)# end
+config terminal
+ethernet uni uni1
+del service evc1
+del service evc2
+del service evc3
+del service evc4
+del service evc5
+del service evc6
+del service evc7
+del service evc8
+del service evc9
+del service evc10
+no map interface
+ethernet uni del uni1
+ethernet uni uni2
+del service evc11
+del service evc12
+del service evc13
+del service evc14
+del service evc15
+del service evc16
+del service evc17
+
+LAB1(config-ep)# 
+LAB1(config-ep)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet uni uni1
+LAB1(config-uni)# del service evc1
+LAB1(config-uni)# del service evc2
+LAB1(config-uni)# del service evc3
+LAB1(config-uni)# del service evc4
+LAB1(config-uni)# del service evc5
+LAB1(config-uni)# del service evc6
+LAB1(config-uni)# del service evc7
+LAB1(config-uni)# del service evc8
+LAB1(config-uni)# del service evc9
+LAB1(config-uni)# del service evc10
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni1
+LAB1(config)# ethernet uni uni2
+LAB1(config-uni)# del service evc11
+LAB1(config-uni)# del service evc12
+LAB1(config-uni)# del service evc13
+LAB1(config-uni)# del service evc14
+LAB1(config-uni)# del service evc15
+LAB1(config-uni)# del service evc16
+LAB1(config-uni)# del service evc18
+del service evc19
+del service evc20
+no map interface
+ethernet uni del uni2
+ethernet uni uni3
+del service evc21
+del service evc22
+del service evc23
+del service evc24
+del service evc25
+del service evc26
+del service evc27
+del service evc28
+del service evc29
+del service evc30
+no map interface
+ethernet uni del uni3
+ethernet uni uni4
+del service evc31
+del service evc32
+del service evc33
+del service evc34
+del service evc35
+del service evc17
+LAB1(config-uni)# del service evc18
+LAB1(config-uni)# del service evc19
+LAB1(config-uni)# del service evc20
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni2
+LAB1(config)# ethernet uni uni3
+LAB1(config-uni)# del service evc21
+LAB1(config-uni)# del service evc22
+LAB1(config-uni)# del service evc23
+LAB1(config-uni)# del service evc24
+LAB1(config-uni)# del service evc25
+LAB1(config-uni)# del service evc26
+LAB1(config-uni)# del service evc27
+LAB1(config-uni)# del service evc28
+LAB1(config-uni)# del service evc29
+LAB1(config-uni)# del service evc30
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni3
+LAB1(config)# ethernet uni uni4
+LAB1(config-uni)# del service evc31
+LAB1(config-uni)# del service evc32
+LAB1(config-uni)# del service evc33
+LAB1(config-uni)# del service evc34
+LAB1(config-uni)# del service evc36
+del service evc37
+del service evc38
+del service evc39
+del service evc40
+no map interface
+ethernet uni del uni4
+ethernet uni uni5
+del service evc41
+del service evc42
+del service evc43
+del service evc44
+del service evc45
+del service evc46
+del service evc47
+del service evc48
+del service evc49
+del service evc50
+no map interface
+ethernet uni del uni5
+ethernet uni uni6
+del service evc51
+del service evc52
+del service evc53
+del service evc35
+LAB1(config-uni)# del service evc36
+LAB1(config-uni)# del service evc37
+LAB1(config-uni)# del service evc38
+LAB1(config-uni)# del service evc39
+LAB1(config-uni)# del service evc40
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni4
+LAB1(config)# ethernet uni uni5
+LAB1(config-uni)# del service evc41
+LAB1(config-uni)# del service evc42
+LAB1(config-uni)# del service evc43
+LAB1(config-uni)# del service evc44
+LAB1(config-uni)# del service evc45
+LAB1(config-uni)# del service evc46
+LAB1(config-uni)# del service evc47
+LAB1(config-uni)# del service evc48
+LAB1(config-uni)# del service evc49
+LAB1(config-uni)# del service evc50
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni5
+LAB1(config)# ethernet uni uni6
+LAB1(config-uni)# del service evc51
+LAB1(config-uni)# del service evc52
+LAB1(config-uni)# del service evc54
+del service evc55
+del service evc56
+del service evc57
+del service evc58
+del service evc59
+del service evc60
+no map interface
+ethernet uni del uni6
+ethernet uni uni7
+del service evc61
+del service evc62
+del service evc63
+del service evc64
+del service evc65
+del service evc66
+del service evc67
+del service evc68
+del service evc69
+del service evc70
+no map interface
+ethernet uni del uni7
+ethernet uni uni8
+del service evc71
+del service evc53
+LAB1(config-uni)# del service evc54
+LAB1(config-uni)# del service evc55
+LAB1(config-uni)# del service evc56
+LAB1(config-uni)# del service evc57
+LAB1(config-uni)# del service evc58
+LAB1(config-uni)# del service evc59
+LAB1(config-uni)# del service evc60
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni6
+LAB1(config)# ethernet uni uni7
+LAB1(config-uni)# del service evc61
+LAB1(config-uni)# del service evc62
+LAB1(config-uni)# del service evc63
+LAB1(config-uni)# del service evc64
+LAB1(config-uni)# del service evc65
+LAB1(config-uni)# del service evc66
+LAB1(config-uni)# del service evc67
+LAB1(config-uni)# del service evc68
+LAB1(config-uni)# del service evc69
+LAB1(config-uni)# del service evc70
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni7
+LAB1(config)# ethernet uni uni8
+LAB1(config-uni)# del service evc72
+del service evc73
+del service evc74
+del service evc75
+del service evc76
+del service evc77
+del service evc78
+del service evc79
+del service evc80
+no map interface
+ethernet uni del uni8
+ethernet uni uni9
+del service evc81
+del service evc82
+del service evc83
+del service evc84
+del service evc85
+del service evc86
+del service evc87
+del service evc88
+del service evc89
+del service evc90
+no map interface
+ethernet uni del uni9
+del service evc71
+LAB1(config-uni)# del service evc72
+LAB1(config-uni)# del service evc73
+LAB1(config-uni)# del service evc74
+LAB1(config-uni)# del service evc75
+LAB1(config-uni)# del service evc76
+LAB1(config-uni)# del service evc77
+LAB1(config-uni)# del service evc78
+LAB1(config-uni)# del service evc79
+LAB1(config-uni)# del service evc80
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni8
+LAB1(config)# ethernet uni uni9
+LAB1(config-uni)# del service evc81
+LAB1(config-uni)# del service evc82
+LAB1(config-uni)# del service evc83
+LAB1(config-uni)# del service evc84
+LAB1(config-uni)# del service evc85
+LAB1(config-uni)# del service evc86
+LAB1(config-uni)# del service evc87
+LAB1(config-uni)# del service evc88
+LAB1(config-uni)# del service evc89
+LAB1(config-uni)# del service evc90
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni uni10
+del service evc91
+del service evc92
+del service evc93
+del service evc94
+del service evc95
+del service evc96
+del service evc97
+del service evc98
+del service evc99
+del service evc100
+no map interface
+ethernet uni del uni10
+ethernet uni uni11
+del service evc101
+del service evc102
+del service evc103
+del service evc104
+del service evc105
+del service evc106
+del service evc107
+del service evc108
+del service evc109
+del service evc110
+ethernet uni del uni9
+LAB1(config)# ethernet uni uni10
+LAB1(config-uni)# del service evc91
+LAB1(config-uni)# del service evc92
+LAB1(config-uni)# del service evc93
+LAB1(config-uni)# del service evc94
+LAB1(config-uni)# del service evc95
+LAB1(config-uni)# del service evc96
+LAB1(config-uni)# del service evc97
+LAB1(config-uni)# del service evc98
+LAB1(config-uni)# del service evc99
+LAB1(config-uni)# del service evc100
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni10
+LAB1(config)# ethernet uni uni11
+LAB1(config-uni)# del service evc101
+LAB1(config-uni)# del service evc102
+LAB1(config-uni)# del service evc103
+LAB1(config-uni)# del service evc104
+LAB1(config-uni)# del service evc105
+LAB1(config-uni)# del service evc106
+LAB1(config-uni)# del service evc107
+LAB1(config-uni)# del service evc108
+LAB1(config-uni)# del service evc109
+LAB1(config-uni)# no map interface
+ethernet uni del uni11
+ethernet uni uni12
+del service evc111
+del service evc112
+del service evc113
+del service evc114
+del service evc115
+del service evc116
+del service evc117
+del service evc118
+del service evc119
+del service evc120
+no map interface
+ethernet uni del uni12
+ethernet uni uni13
+del service evc121
+del service evc122
+del service evc123
+del service evc124
+del service evc125
+del service evc126
+del service evc127
+del service evc128
+del service evc110
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni11
+LAB1(config)# ethernet uni uni12
+LAB1(config-uni)# del service evc111
+LAB1(config-uni)# del service evc112
+LAB1(config-uni)# del service evc113
+LAB1(config-uni)# del service evc114
+LAB1(config-uni)# del service evc115
+LAB1(config-uni)# del service evc116
+LAB1(config-uni)# del service evc117
+LAB1(config-uni)# del service evc118
+LAB1(config-uni)# del service evc119
+LAB1(config-uni)# del service evc120
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni12
+LAB1(config)# ethernet uni uni13
+LAB1(config-uni)# del service evc121
+LAB1(config-uni)# del service evc122
+LAB1(config-uni)# del service evc123
+LAB1(config-uni)# del service evc124
+LAB1(config-uni)# del service evc125
+LAB1(config-uni)# del service evc126
+LAB1(config-uni)# del service evc127
+LAB1(config-uni)# del service evc129
+del service evc130
+no map interface
+ethernet uni del uni13
+ethernet uni uni14
+del service evc131
+del service evc132
+del service evc133
+del service evc134
+del service evc135
+del service evc136
+del service evc137
+del service evc138
+del service evc139
+del service evc140
+no map interface
+ethernet uni del uni14
+ethernet uni uni15
+del service evc141
+del service evc142
+del service evc143
+del service evc144
+del service evc145
+del service evc146
+del service evc128
+LAB1(config-uni)# del service evc129
+LAB1(config-uni)# del service evc130
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni13
+LAB1(config)# ethernet uni uni14
+LAB1(config-uni)# del service evc131
+LAB1(config-uni)# del service evc132
+LAB1(config-uni)# del service evc133
+LAB1(config-uni)# del service evc134
+LAB1(config-uni)# del service evc135
+LAB1(config-uni)# del service evc136
+LAB1(config-uni)# del service evc137
+LAB1(config-uni)# del service evc138
+LAB1(config-uni)# del service evc139
+LAB1(config-uni)# del service evc140
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni14
+LAB1(config)# ethernet uni uni15
+LAB1(config-uni)# del service evc141
+LAB1(config-uni)# del service evc142
+LAB1(config-uni)# del service evc143
+LAB1(config-uni)# del service evc144
+LAB1(config-uni)# del service evc145
+LAB1(config-uni)# del service evc147
+del service evc148
+del service evc149
+del service evc150
+no map interface
+ethernet uni del uni15
+ethernet uni uni16
+del service evc151
+del service evc152
+del service evc153
+del service evc154
+del service evc155
+del service evc156
+del service evc157
+del service evc158
+del service evc159
+del service evc160
+no map interface
+ethernet uni del uni16
+ethernet uni uni17
+del service evc161
+del service evc162
+del service evc163
+del service evc164
+del service evc146
+LAB1(config-uni)# del service evc147
+LAB1(config-uni)# del service evc148
+LAB1(config-uni)# del service evc149
+LAB1(config-uni)# del service evc150
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni15
+LAB1(config)# ethernet uni uni16
+LAB1(config-uni)# del service evc151
+LAB1(config-uni)# del service evc152
+LAB1(config-uni)# del service evc153
+LAB1(config-uni)# del service evc154
+LAB1(config-uni)# del service evc155
+LAB1(config-uni)# del service evc156
+LAB1(config-uni)# del service evc157
+LAB1(config-uni)# del service evc158
+LAB1(config-uni)# del service evc159
+LAB1(config-uni)# del service evc160
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni16
+LAB1(config)# ethernet uni uni17
+LAB1(config-uni)# del service evc161
+LAB1(config-uni)# del service evc162
+LAB1(config-uni)# del service evc163
+LAB1(config-uni)# del service evc165
+del service evc166
+del service evc167
+del service evc168
+del service evc169
+del service evc170
+no map interface
+ethernet uni del uni17
+ethernet uni uni18
+del service evc171
+del service evc172
+del service evc173
+del service evc174
+del service evc175
+del service evc176
+del service evc177
+del service evc178
+del service evc179
+del service evc180
+no map interface
+ethernet uni del uni18
+ethernet uni uni19
+del service evc181
+del service evc182
+del service evc164
+LAB1(config-uni)# del service evc165
+LAB1(config-uni)# del service evc166
+LAB1(config-uni)# del service evc167
+LAB1(config-uni)# del service evc168
+LAB1(config-uni)# del service evc169
+LAB1(config-uni)# del service evc170
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni17
+LAB1(config)# ethernet uni uni18
+LAB1(config-uni)# del service evc171
+LAB1(config-uni)# del service evc172
+LAB1(config-uni)# del service evc173
+LAB1(config-uni)# del service evc174
+LAB1(config-uni)# del service evc175
+LAB1(config-uni)# del service evc176
+LAB1(config-uni)# del service evc177
+LAB1(config-uni)# del service evc178
+LAB1(config-uni)# del service evc179
+LAB1(config-uni)# del service evc180
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni18
+LAB1(config)# ethernet uni uni19
+LAB1(config-uni)# del service evc181
+LAB1(config-uni)# del service evc183
+del service evc184
+del service evc185
+del service evc186
+del service evc187
+del service evc188
+del service evc189
+del service evc190
+no map interface
+ethernet uni del uni19
+ethernet uni uni20
+del service evc191
+del service evc192
+del service evc193
+del service evc194
+del service evc195
+del service evc196
+del service evc197
+del service evc198
+del service evc199
+del service evc200
+no map interface
+ethernet uni del uni20
+ethernet uni uni21
+del service evc182
+LAB1(config-uni)# del service evc183
+LAB1(config-uni)# del service evc184
+LAB1(config-uni)# del service evc185
+LAB1(config-uni)# del service evc186
+LAB1(config-uni)# del service evc187
+LAB1(config-uni)# del service evc188
+LAB1(config-uni)# del service evc189
+LAB1(config-uni)# del service evc190
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni19
+LAB1(config)# ethernet uni uni20
+LAB1(config-uni)# del service evc191
+LAB1(config-uni)# del service evc192
+LAB1(config-uni)# del service evc193
+LAB1(config-uni)# del service evc194
+LAB1(config-uni)# del service evc195
+LAB1(config-uni)# del service evc196
+LAB1(config-uni)# del service evc197
+LAB1(config-uni)# del service evc198
+LAB1(config-uni)# del service evc199
+LAB1(config-uni)# del service evc200
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni20
+LAB1(config)# del service evc201
+del service evc202
+del service evc203
+del service evc204
+del service evc205
+del service evc206
+del service evc207
+del service evc208
+del service evc209
+del service evc210
+no map interface
+ethernet uni del uni21
+ethernet uni uni22
+del service evc211
+del service evc212
+del service evc213
+del service evc214
+del service evc215
+del service evc216
+del service evc217
+del service evc218
+del service evc219
+del service evc220
+no map interface
+ethernet uni uni21
+LAB1(config-uni)# del service evc201
+LAB1(config-uni)# del service evc202
+LAB1(config-uni)# del service evc203
+LAB1(config-uni)# del service evc204
+LAB1(config-uni)# del service evc205
+LAB1(config-uni)# del service evc206
+LAB1(config-uni)# del service evc207
+LAB1(config-uni)# del service evc208
+LAB1(config-uni)# del service evc209
+LAB1(config-uni)# del service evc210
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni21
+LAB1(config)# ethernet uni uni22
+LAB1(config-uni)# del service evc211
+LAB1(config-uni)# del service evc212
+LAB1(config-uni)# del service evc213
+LAB1(config-uni)# del service evc214
+LAB1(config-uni)# del service evc215
+LAB1(config-uni)# del service evc216
+LAB1(config-uni)# del service evc217
+LAB1(config-uni)# del service evc218
+LAB1(config-uni)# del service evc219
+LAB1(config-uni)# del service evc220
+LAB1(config-uni)# ethernet uni del uni22
+ethernet uni uni23
+del service evc221
+del service evc222
+del service evc223
+del service evc224
+del service evc225
+del service evc226
+del service evc227
+del service evc228
+del service evc229
+del service evc230
+no map interface
+ethernet uni del uni23
+ethernet uni uni24
+del service evc231
+del service evc232
+del service evc233
+del service evc234
+del service evc235
+del service evc236
+del service evc237
+del service evc238
+del service evc239
+no map interface
+LAB1(config-uni)# ethernet uni del uni22
+LAB1(config)# ethernet uni uni23
+LAB1(config-uni)# del service evc221
+LAB1(config-uni)# del service evc222
+LAB1(config-uni)# del service evc223
+LAB1(config-uni)# del service evc224
+LAB1(config-uni)# del service evc225
+LAB1(config-uni)# del service evc226
+LAB1(config-uni)# del service evc227
+LAB1(config-uni)# del service evc228
+LAB1(config-uni)# del service evc229
+LAB1(config-uni)# del service evc230
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni23
+LAB1(config)# ethernet uni uni24
+LAB1(config-uni)# del service evc231
+LAB1(config-uni)# del service evc232
+LAB1(config-uni)# del service evc233
+LAB1(config-uni)# del service evc234
+LAB1(config-uni)# del service evc235
+LAB1(config-uni)# del service evc236
+LAB1(config-uni)# del service evc237
+LAB1(config-uni)# del service evc238
+LAB1(config-uni)# del service evc240
+del service evc241
+del service evc242
+del service evc243
+del service evc244
+del service evc245
+del service evc246
+del service evc247
+del service evc248
+del service evc249
+del service evc250
+del service evc251
+del service evc252
+del service evc253
+del service evc254
+del service evc255
+del service evc256
+no map interface
+ethernet uni del uni24
+
+
+end
+config terminal
+ethernet nni nni1
+del service evc1
+del service evc239
+LAB1(config-uni)# del service evc240
+LAB1(config-uni)# del service evc241
+LAB1(config-uni)# del service evc242
+LAB1(config-uni)# del service evc243
+LAB1(config-uni)# del service evc244
+LAB1(config-uni)# del service evc245
+LAB1(config-uni)# del service evc246
+LAB1(config-uni)# del service evc247
+LAB1(config-uni)# del service evc248
+LAB1(config-uni)# del service evc249
+LAB1(config-uni)# del service evc250
+LAB1(config-uni)# del service evc251
+LAB1(config-uni)# del service evc252
+LAB1(config-uni)# del service evc253
+LAB1(config-uni)# del service evc254
+LAB1(config-uni)# del service evc255
+LAB1(config-uni)# del service evc256
+LAB1(config-uni)# no map interface
+LAB1(config-uni)# ethernet uni del uni24
+LAB1(config)# 
+LAB1(config)# 
+LAB1(config)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet nni nni1
+LAB1(config-nni)# del service evc2
+del service evc3
+del service evc4
+del service evc5
+del service evc6
+del service evc7
+del service evc8
+del service evc9
+del service evc10
+del service evc11
+del service evc12
+del service evc13
+del service evc14
+del service evc15
+del service evc16
+del service evc17
+del service evc18
+del service evc19
+del service evc20
+del service evc21
+del service evc22
+del service evc23
+del service evc24
+del service evc25
+del service evc26
+del service evc1
+LAB1(config-nni)# del service evc2
+LAB1(config-nni)# del service evc3
+LAB1(config-nni)# del service evc4
+LAB1(config-nni)# del service evc5
+LAB1(config-nni)# del service evc6
+LAB1(config-nni)# del service evc7
+LAB1(config-nni)# del service evc8
+LAB1(config-nni)# del service evc9
+LAB1(config-nni)# del service evc10
+LAB1(config-nni)# del service evc11
+LAB1(config-nni)# del service evc12
+LAB1(config-nni)# del service evc13
+LAB1(config-nni)# del service evc14
+LAB1(config-nni)# del service evc15
+LAB1(config-nni)# del service evc16
+LAB1(config-nni)# del service evc17
+LAB1(config-nni)# del service evc18
+LAB1(config-nni)# del service evc19
+LAB1(config-nni)# del service evc20
+LAB1(config-nni)# del service evc21
+LAB1(config-nni)# del service evc22
+LAB1(config-nni)# del service evc23
+LAB1(config-nni)# del service evc24
+LAB1(config-nni)# del service evc25
+LAB1(config-nni)# del service evc27
+del service evc28
+del service evc29
+del service evc30
+del service evc31
+del service evc32
+del service evc33
+del service evc34
+del service evc35
+del service evc36
+del service evc37
+del service evc38
+del service evc39
+del service evc40
+del service evc41
+del service evc42
+del service evc43
+del service evc44
+del service evc45
+del service evc46
+del service evc47
+del service evc48
+del service evc49
+del service evc50
+del service evc51
+del service evc26
+LAB1(config-nni)# del service evc27
+LAB1(config-nni)# del service evc28
+LAB1(config-nni)# del service evc29
+LAB1(config-nni)# del service evc30
+LAB1(config-nni)# del service evc31
+LAB1(config-nni)# del service evc32
+LAB1(config-nni)# del service evc33
+LAB1(config-nni)# del service evc34
+LAB1(config-nni)# del service evc35
+LAB1(config-nni)# del service evc36
+LAB1(config-nni)# del service evc37
+LAB1(config-nni)# del service evc38
+LAB1(config-nni)# del service evc39
+LAB1(config-nni)# del service evc40
+LAB1(config-nni)# del service evc41
+LAB1(config-nni)# del service evc42
+LAB1(config-nni)# del service evc43
+LAB1(config-nni)# del service evc44
+LAB1(config-nni)# del service evc45
+LAB1(config-nni)# del service evc46
+LAB1(config-nni)# del service evc47
+LAB1(config-nni)# del service evc48
+LAB1(config-nni)# del service evc49
+LAB1(config-nni)# del service evc50
+LAB1(config-nni)# del service evc52
+del service evc53
+del service evc54
+del service evc55
+del service evc56
+del service evc57
+del service evc58
+del service evc59
+del service evc60
+del service evc61
+del service evc62
+del service evc63
+del service evc64
+del service evc65
+del service evc66
+del service evc67
+del service evc68
+del service evc69
+del service evc70
+del service evc71
+del service evc72
+del service evc73
+del service evc74
+del service evc75
+del service evc76
+del service evc51
+LAB1(config-nni)# del service evc52
+LAB1(config-nni)# del service evc53
+LAB1(config-nni)# del service evc54
+LAB1(config-nni)# del service evc55
+LAB1(config-nni)# del service evc56
+LAB1(config-nni)# del service evc57
+LAB1(config-nni)# del service evc58
+LAB1(config-nni)# del service evc59
+LAB1(config-nni)# del service evc60
+LAB1(config-nni)# del service evc61
+LAB1(config-nni)# del service evc62
+LAB1(config-nni)# del service evc63
+LAB1(config-nni)# del service evc64
+LAB1(config-nni)# del service evc65
+LAB1(config-nni)# del service evc66
+LAB1(config-nni)# del service evc67
+LAB1(config-nni)# del service evc68
+LAB1(config-nni)# del service evc69
+LAB1(config-nni)# del service evc70
+LAB1(config-nni)# del service evc71
+LAB1(config-nni)# del service evc72
+LAB1(config-nni)# del service evc73
+LAB1(config-nni)# del service evc74
+LAB1(config-nni)# del service evc75
+LAB1(config-nni)# del service evc77
+del service evc78
+del service evc79
+del service evc80
+del service evc81
+del service evc82
+del service evc83
+del service evc84
+del service evc85
+del service evc86
+del service evc87
+del service evc88
+del service evc89
+del service evc90
+del service evc91
+del service evc92
+del service evc93
+del service evc94
+del service evc95
+del service evc96
+del service evc97
+del service evc98
+del service evc99
+del service evc100
+del service evc101
+del service evc76
+LAB1(config-nni)# del service evc77
+LAB1(config-nni)# del service evc78
+LAB1(config-nni)# del service evc79
+LAB1(config-nni)# del service evc80
+LAB1(config-nni)# del service evc81
+LAB1(config-nni)# del service evc82
+LAB1(config-nni)# del service evc83
+LAB1(config-nni)# del service evc84
+LAB1(config-nni)# del service evc85
+LAB1(config-nni)# del service evc86
+LAB1(config-nni)# del service evc87
+LAB1(config-nni)# del service evc88
+LAB1(config-nni)# del service evc89
+LAB1(config-nni)# del service evc90
+LAB1(config-nni)# del service evc91
+LAB1(config-nni)# del service evc92
+LAB1(config-nni)# del service evc93
+LAB1(config-nni)# del service evc94
+LAB1(config-nni)# del service evc95
+LAB1(config-nni)# del service evc96
+LAB1(config-nni)# del service evc97
+LAB1(config-nni)# del service evc98
+LAB1(config-nni)# del service evc99
+LAB1(config-nni)# del service evc100
+LAB1(config-nni)# del service evc102
+del service evc103
+del service evc104
+del service evc105
+del service evc106
+del service evc107
+del service evc108
+del service evc109
+del service evc110
+del service evc111
+del service evc112
+del service evc113
+del service evc114
+del service evc115
+del service evc116
+del service evc117
+del service evc118
+del service evc119
+del service evc120
+del service evc121
+del service evc122
+del service evc123
+del service evc124
+del service evc125
+del service evc126
+del service evc101
+LAB1(config-nni)# del service evc102
+LAB1(config-nni)# del service evc103
+LAB1(config-nni)# del service evc104
+LAB1(config-nni)# del service evc105
+LAB1(config-nni)# del service evc106
+LAB1(config-nni)# del service evc107
+LAB1(config-nni)# del service evc108
+LAB1(config-nni)# del service evc109
+LAB1(config-nni)# del service evc110
+LAB1(config-nni)# del service evc111
+LAB1(config-nni)# del service evc112
+LAB1(config-nni)# del service evc113
+LAB1(config-nni)# del service evc114
+LAB1(config-nni)# del service evc115
+LAB1(config-nni)# del service evc116
+LAB1(config-nni)# del service evc117
+LAB1(config-nni)# del service evc118
+LAB1(config-nni)# del service evc119
+LAB1(config-nni)# del service evc120
+LAB1(config-nni)# del service evc121
+LAB1(config-nni)# del service evc122
+LAB1(config-nni)# del service evc123
+LAB1(config-nni)# del service evc124
+LAB1(config-nni)# del service evc125
+LAB1(config-nni)# del service evc127
+del service evc128
+del service evc129
+del service evc130
+del service evc131
+del service evc132
+del service evc133
+del service evc134
+del service evc135
+del service evc136
+del service evc137
+del service evc138
+del service evc139
+del service evc140
+del service evc141
+del service evc142
+del service evc143
+del service evc144
+del service evc145
+del service evc146
+del service evc147
+del service evc148
+del service evc149
+del service evc150
+del service evc151
+del service evc126
+LAB1(config-nni)# del service evc127
+LAB1(config-nni)# del service evc128
+LAB1(config-nni)# del service evc129
+LAB1(config-nni)# del service evc130
+LAB1(config-nni)# del service evc131
+LAB1(config-nni)# del service evc132
+LAB1(config-nni)# del service evc133
+LAB1(config-nni)# del service evc134
+LAB1(config-nni)# del service evc135
+LAB1(config-nni)# del service evc136
+LAB1(config-nni)# del service evc137
+LAB1(config-nni)# del service evc138
+LAB1(config-nni)# del service evc139
+LAB1(config-nni)# del service evc140
+LAB1(config-nni)# del service evc141
+LAB1(config-nni)# del service evc142
+LAB1(config-nni)# del service evc143
+LAB1(config-nni)# del service evc144
+LAB1(config-nni)# del service evc145
+LAB1(config-nni)# del service evc146
+LAB1(config-nni)# del service evc147
+LAB1(config-nni)# del service evc148
+LAB1(config-nni)# del service evc149
+LAB1(config-nni)# del service evc150
+LAB1(config-nni)# del service evc152
+del service evc153
+del service evc154
+del service evc155
+del service evc156
+del service evc157
+del service evc158
+del service evc159
+del service evc160
+del service evc161
+del service evc162
+del service evc163
+del service evc164
+del service evc165
+del service evc166
+del service evc167
+del service evc168
+del service evc169
+del service evc170
+del service evc171
+del service evc172
+del service evc173
+del service evc174
+del service evc175
+del service evc176
+del service evc151
+LAB1(config-nni)# del service evc152
+LAB1(config-nni)# del service evc153
+LAB1(config-nni)# del service evc154
+LAB1(config-nni)# del service evc155
+LAB1(config-nni)# del service evc156
+LAB1(config-nni)# del service evc157
+LAB1(config-nni)# del service evc158
+LAB1(config-nni)# del service evc159
+LAB1(config-nni)# del service evc160
+LAB1(config-nni)# del service evc161
+LAB1(config-nni)# del service evc162
+LAB1(config-nni)# del service evc163
+LAB1(config-nni)# del service evc164
+LAB1(config-nni)# del service evc165
+LAB1(config-nni)# del service evc166
+LAB1(config-nni)# del service evc167
+LAB1(config-nni)# del service evc168
+LAB1(config-nni)# del service evc169
+LAB1(config-nni)# del service evc170
+LAB1(config-nni)# del service evc171
+LAB1(config-nni)# del service evc172
+LAB1(config-nni)# del service evc173
+LAB1(config-nni)# del service evc174
+LAB1(config-nni)# del service evc175
+LAB1(config-nni)# del service evc177
+del service evc178
+del service evc179
+del service evc180
+del service evc181
+del service evc182
+del service evc183
+del service evc184
+del service evc185
+del service evc186
+del service evc187
+del service evc188
+del service evc189
+del service evc190
+del service evc191
+del service evc192
+del service evc193
+del service evc194
+del service evc195
+del service evc196
+del service evc197
+del service evc198
+del service evc199
+del service evc200
+del service evc201
+del service evc176
+LAB1(config-nni)# del service evc177
+LAB1(config-nni)# del service evc178
+LAB1(config-nni)# del service evc179
+LAB1(config-nni)# del service evc180
+LAB1(config-nni)# del service evc181
+LAB1(config-nni)# del service evc182
+LAB1(config-nni)# del service evc183
+LAB1(config-nni)# del service evc184
+LAB1(config-nni)# del service evc185
+LAB1(config-nni)# del service evc186
+LAB1(config-nni)# del service evc187
+LAB1(config-nni)# del service evc188
+LAB1(config-nni)# del service evc189
+LAB1(config-nni)# del service evc190
+LAB1(config-nni)# del service evc191
+LAB1(config-nni)# del service evc192
+LAB1(config-nni)# del service evc193
+LAB1(config-nni)# del service evc194
+LAB1(config-nni)# del service evc195
+LAB1(config-nni)# del service evc196
+LAB1(config-nni)# del service evc197
+LAB1(config-nni)# del service evc198
+LAB1(config-nni)# del service evc199
+LAB1(config-nni)# del service evc200
+LAB1(config-nni)# del service evc202
+del service evc203
+del service evc204
+del service evc205
+del service evc206
+del service evc207
+del service evc208
+del service evc209
+del service evc210
+del service evc211
+del service evc212
+del service evc213
+del service evc214
+del service evc215
+del service evc216
+del service evc217
+del service evc218
+del service evc219
+del service evc220
+del service evc221
+del service evc222
+del service evc223
+del service evc224
+del service evc225
+del service evc226
+del service evc201
+LAB1(config-nni)# del service evc202
+LAB1(config-nni)# del service evc203
+LAB1(config-nni)# del service evc204
+LAB1(config-nni)# del service evc205
+LAB1(config-nni)# del service evc206
+LAB1(config-nni)# del service evc207
+LAB1(config-nni)# del service evc208
+LAB1(config-nni)# del service evc209
+LAB1(config-nni)# del service evc210
+LAB1(config-nni)# del service evc211
+LAB1(config-nni)# del service evc212
+LAB1(config-nni)# del service evc213
+LAB1(config-nni)# del service evc214
+LAB1(config-nni)# del service evc215
+LAB1(config-nni)# del service evc216
+LAB1(config-nni)# del service evc217
+LAB1(config-nni)# del service evc218
+LAB1(config-nni)# del service evc219
+LAB1(config-nni)# del service evc220
+LAB1(config-nni)# del service evc221
+LAB1(config-nni)# del service evc222
+LAB1(config-nni)# del service evc223
+LAB1(config-nni)# del service evc224
+LAB1(config-nni)# del service evc225
+LAB1(config-nni)# del service evc227
+del service evc228
+del service evc229
+del service evc230
+del service evc231
+del service evc232
+del service evc233
+del service evc234
+del service evc235
+del service evc236
+del service evc237
+del service evc238
+del service evc239
+del service evc240
+del service evc241
+del service evc242
+del service evc243
+del service evc244
+del service evc245
+del service evc246
+del service evc247
+del service evc248
+del service evc249
+del service evc250
+del service evc251
+del service evc226
+LAB1(config-nni)# del service evc227
+LAB1(config-nni)# del service evc228
+LAB1(config-nni)# del service evc229
+LAB1(config-nni)# del service evc230
+LAB1(config-nni)# del service evc231
+LAB1(config-nni)# del service evc232
+LAB1(config-nni)# del service evc233
+LAB1(config-nni)# del service evc234
+LAB1(config-nni)# del service evc235
+LAB1(config-nni)# del service evc236
+LAB1(config-nni)# del service evc237
+LAB1(config-nni)# del service evc238
+LAB1(config-nni)# del service evc239
+LAB1(config-nni)# del service evc240
+LAB1(config-nni)# del service evc241
+LAB1(config-nni)# del service evc242
+LAB1(config-nni)# del service evc243
+LAB1(config-nni)# del service evc244
+LAB1(config-nni)# del service evc245
+LAB1(config-nni)# del service evc246
+LAB1(config-nni)# del service evc247
+LAB1(config-nni)# del service evc248
+LAB1(config-nni)# del service evc249
+LAB1(config-nni)# del service evc250
+LAB1(config-nni)# del service evc252
+del service evc253
+del service evc254
+del service evc255
+del service evc256
+ethernet nni del nni1
+
+
+end
+config terminal
+ethernet service del evc1
+ethernet service del evc2
+ethernet service del evc3
+ethernet service del evc4
+ethernet service del evc5
+ethernet service del evc6
+ethernet service del evc7
+ethernet service del evc8
+ethernet service del evc9
+ethernet service del evc10
+ethernet service del evc11
+ethernet service del evc12
+ethernet service del evc13
+ethernet service del evc14
+ethernet service del evc15
+ethernet service del evc16
+del service evc251
+LAB1(config-nni)# del service evc252
+LAB1(config-nni)# del service evc253
+LAB1(config-nni)# del service evc254
+LAB1(config-nni)# del service evc255
+LAB1(config-nni)# del service evc256
+LAB1(config-nni)# ethernet nni del nni1
+LAB1(config)# 
+LAB1(config)# 
+LAB1(config)# end
+LAB1# config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LAB1(config)# ethernet service del evc1
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc2
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc3
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc4
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc5
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc6
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc7
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc8
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc9
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc10
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc11
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc12
+ Warning - The MEG (MD/MA) related to the EVC will be automaethernet service del evc17
+ethernet service del evc18
+ethernet service del evc19
+ethernet service del evc20
+ethernet service del evc21
+ethernet service del evc22
+ethernet service del evc23
+ethernet service del evc24
+ethernet service del evc25
+ethernet service del evc26
+ethernet service del evc27
+ethernet service del evc28
+ethernet service del evc29
+ethernet service del evc30
+ethernet service del evc31
+ethernet service del evc32
+ethernet service del evc33
+ethernet service del evc34
+ethernet service del evc35
+ethernet service del evc36
+ethernet service del evc37
+ethernet service del evc38
+tically removed from the device.
+LAB1(config)# ethernet service del evc13
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc14
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc15
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc16
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc17
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc18
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc19
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc20
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc21
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc22
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc23
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc24
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc25
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc26
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc27
+ Warnethernet service del evc39
+ethernet service del evc40
+ethernet service del evc41
+ethernet service del evc42
+ethernet service del evc43
+ethernet service del evc44
+ethernet service del evc45
+ethernet service del evc46
+ethernet service del evc47
+ethernet service del evc48
+ethernet service del evc49
+ethernet service del evc50
+ethernet service del evc51
+ethernet service del evc52
+ethernet service del evc53
+ing - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc28
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc29
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc30
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc31
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc32
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc33
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc34
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc35
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc36
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc37
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc38
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc39
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc40
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc41
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the deethernet service del evc54
+ethernet service del evc55
+ethernet service del evc56
+ethernet service del evc57
+ethernet service del evc58
+ethernet service del evc59
+ethernet service del evc60
+ethernet service del evc61
+ethernet service del evc62
+ethernet service del evc63
+ethernet service del evc64
+ethernet service del evc65
+ethernet service del evc66
+ethernet service del evc67
+vice.
+LAB1(config)# ethernet service del evc42
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc43
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc44
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc45
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc46
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc47
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc48
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc49
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc50
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc51
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc52
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc53
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc54
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc55
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc56
+ Warning - The MEG (MD/MA) relatethernet service del evc68
+ethernet service del evc69
+ethernet service del evc70
+ethernet service del evc71
+ethernet service del evc72
+ethernet service del evc73
+ethernet service del evc74
+ethernet service del evc75
+ethernet service del evc76
+ethernet service del evc77
+ethernet service del evc78
+ethernet service del evc79
+ethernet service del evc80
+ethernet service del evc81
+ethernet service del evc82
+ed to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc57
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc58
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc59
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc60
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc61
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc62
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc63
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc64
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc65
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc66
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc67
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc68
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc69
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc70
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernethernet service del evc83
+ethernet service del evc84
+ethernet service del evc85
+ethernet service del evc86
+ethernet service del evc87
+ethernet service del evc88
+ethernet service del evc89
+ethernet service del evc90
+ethernet service del evc91
+ethernet service del evc92
+ethernet service del evc93
+ethernet service del evc94
+ethernet service del evc95
+ethernet service del evc96
+ethernet service del evc97
+et service del evc71
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc72
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc73
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc74
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc75
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc76
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc77
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc78
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc79
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc80
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc81
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc82
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc83
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc84
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc85
+ Warning - The MEG (MD/MA) related to the EVC will be automethernet service del evc98
+ethernet service del evc99
+ethernet service del evc100
+ethernet service del evc101
+ethernet service del evc102
+ethernet service del evc103
+ethernet service del evc104
+ethernet service del evc105
+ethernet service del evc106
+ethernet service del evc107
+ethernet service del evc108
+ethernet service del evc109
+ethernet service del evc110
+ethernet service del evc111
+atically removed from the device.
+LAB1(config)# ethernet service del evc86
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc87
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc88
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc89
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc90
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc91
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc92
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc93
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc94
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc95
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc96
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc97
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc98
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc99
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc100
+ Waethernet service del evc112
+ethernet service del evc113
+ethernet service del evc114
+ethernet service del evc115
+ethernet service del evc116
+ethernet service del evc117
+ethernet service del evc118
+ethernet service del evc119
+ethernet service del evc120
+ethernet service del evc121
+ethernet service del evc122
+ethernet service del evc123
+ethernet service del evc124
+ethernet service del evc125
+ethernet service del evc126
+rning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc101
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc102
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc103
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc104
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc105
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc106
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc107
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc108
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc109
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc110
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc111
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc112
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc113
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc114
+ Warning - The MEG (MD/MA) related to the EVC will be automatically remethernet service del evc127
+ethernet service del evc128
+ethernet service del evc129
+ethernet service del evc130
+ethernet service del evc131
+ethernet service del evc132
+ethernet service del evc133
+ethernet service del evc134
+ethernet service del evc135
+ethernet service del evc136
+ethernet service del evc137
+ethernet service del evc138
+ethernet service del evc139
+ethernet service del evc140
+oved from the device.
+LAB1(config)# ethernet service del evc115
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc116
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc117
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc118
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc119
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc120
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc121
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc122
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc123
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc124
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc125
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc126
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc127
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc128
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc129
+ ethernet service del evc141
+ethernet service del evc142
+ethernet service del evc143
+ethernet service del evc144
+ethernet service del evc145
+ethernet service del evc146
+ethernet service del evc147
+ethernet service del evc148
+ethernet service del evc149
+ethernet service del evc150
+ethernet service del evc151
+ethernet service del evc152
+ethernet service del evc153
+ethernet service del evc154
+ethernet service del evc155
+Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc130
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc131
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc132
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc133
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc134
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc135
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc136
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc137
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc138
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc139
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc140
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc141
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc142
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc143
+ Warning - The MEG (MD/MA) related to the EVC will be automatically rethernet service del evc156
+ethernet service del evc157
+ethernet service del evc158
+ethernet service del evc159
+ethernet service del evc160
+ethernet service del evc161
+ethernet service del evc162
+ethernet service del evc163
+ethernet service del evc164
+ethernet service del evc165
+ethernet service del evc166
+ethernet service del evc167
+ethernet service del evc168
+ethernet service del evc169
+emoved from the device.
+LAB1(config)# ethernet service del evc144
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc145
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc146
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc147
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc148
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc149
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc150
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc151
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc152
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc153
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc154
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc155
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc156
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc157
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc158ethernet service del evc170
+ethernet service del evc171
+ethernet service del evc172
+ethernet service del evc173
+ethernet service del evc174
+ethernet service del evc175
+ethernet service del evc176
+ethernet service del evc177
+ethernet service del evc178
+ethernet service del evc179
+ethernet service del evc180
+ethernet service del evc181
+ethernet service del evc182
+ethernet service del evc183
+ethernet service del evc184
+
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc159
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc160
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc161
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc162
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc163
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc164
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc165
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc166
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc167
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc168
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc169
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc170
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc171
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc172
+ Warning - The MEG (MD/MA) related to the EVC will be automaticallyethernet service del evc185
+ethernet service del evc186
+ethernet service del evc187
+ethernet service del evc188
+ethernet service del evc189
+ethernet service del evc190
+ethernet service del evc191
+ethernet service del evc192
+ethernet service del evc193
+ethernet service del evc194
+ethernet service del evc195
+ethernet service del evc196
+ethernet service del evc197
+ethernet service del evc198
+ removed from the device.
+LAB1(config)# ethernet service del evc173
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc174
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc175
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc176
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc177
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc178
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc179
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc180
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc181
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc182
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc183
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc184
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc185
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc186
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc187ethernet service del evc199
+ethernet service del evc200
+ethernet service del evc201
+ethernet service del evc202
+ethernet service del evc203
+ethernet service del evc204
+ethernet service del evc205
+ethernet service del evc206
+ethernet service del evc207
+ethernet service del evc208
+ethernet service del evc209
+ethernet service del evc210
+ethernet service del evc211
+ethernet service del evc212
+ethernet service del evc213
+
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc188
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc189
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc190
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc191
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc192
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc193
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc194
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc195
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc196
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc197
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc198
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc199
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc200
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc201
+ Warning - The MEG (MD/MA) related to the EVC will be automaticalethernet service del evc214
+ethernet service del evc215
+ethernet service del evc216
+ethernet service del evc217
+ethernet service del evc218
+ethernet service del evc219
+ethernet service del evc220
+ethernet service del evc221
+ethernet service del evc222
+ethernet service del evc223
+ethernet service del evc224
+ethernet service del evc225
+ethernet service del evc226
+ethernet service del evc227
+ly removed from the device.
+LAB1(config)# ethernet service del evc202
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc203
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc204
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc205
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc206
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc207
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc208
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc209
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc210
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc211
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc212
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc213
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc214
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc215
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc2ethernet service del evc228
+ethernet service del evc229
+ethernet service del evc230
+ethernet service del evc231
+ethernet service del evc232
+ethernet service del evc233
+ethernet service del evc234
+ethernet service del evc235
+ethernet service del evc236
+ethernet service del evc237
+ethernet service del evc238
+ethernet service del evc239
+ethernet service del evc240
+ethernet service del evc241
+ethernet service del evc242
+16
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc217
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc218
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc219
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc220
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc221
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc222
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc223
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc224
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc225
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc226
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc227
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc228
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc229
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc230
+ Warning - The MEG (MD/MA) related to the EVC will be automaticethernet service del evc243
+ethernet service del evc244
+ethernet service del evc245
+ethernet service del evc246
+ethernet service del evc247
+ethernet service del evc248
+ethernet service del evc249
+ethernet service del evc250
+ethernet service del evc251
+ethernet service del evc252
+ethernet service del evc253
+ethernet service del evc254
+ethernet service del evc255
+ethernet service del evc256
+ally removed from the device.
+LAB1(config)# ethernet service del evc231
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc232
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc233
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc234
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc235
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc236
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc237
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc238
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc239
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc240
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc241
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc242
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc243
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del evc244
+ Warning - The MEG (MD/MA) related to the EVC will be automatically removed from the device.
+LAB1(config)# ethernet service del ev
+
+end
+config terminal
+
+
+no vlan 2-256
+
+
+
+
+end
